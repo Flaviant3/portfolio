@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Liste des projets{% endblock %}
+
+{% block body %}
+    <h1>Mes Projets</h1>
+
+    <ul>
+        {% for project in projects %}
+            <li>
+                <strong>{{ project.title }}</strong> - {{ project.description }} <br>
+                Créé le : {{ project.dateCreated|date('d/m/Y H:i') }} <br>
+
+                {# Vérifie si l'image existe avant de l'afficher #}
+                {% if project.image %}
+                    {# Utilisation de la fonction asset pour générer le chemin vers l'image #}
+                    <img src="{{ asset('uploads/' ~ project.image) }}" alt="{{ project.title }}" style="max-width: 300px; height: auto;">
+                {% else %}
+                    <p>Aucune image disponible.</p>
+                {% endif %}
+            </li>
+        {% else %}
+            <p>Aucun projet disponible.</p>
+        {% endfor %}
+    </ul>
+
+    <a href="{{ path('add_project') }}">Ajouter un projet</a>
+{% endblock %}

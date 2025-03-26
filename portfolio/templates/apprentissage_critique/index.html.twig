@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Apprentissage Critique{% endblock %}
+
+{% block body %}
+    <h1>Apprentissage Critique</h1>
+    <ul>
+        {% for name, route in categories %}
+            <li><a href="{{ path('apprentissage_critique_category', {'category': name|lower}) }}">{{ name }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
