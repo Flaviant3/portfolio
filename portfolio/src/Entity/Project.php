@@ -25,21 +25,23 @@ class Project
     #[ORM\Column(type: Types::DATETIME_MUTABLE)]
     private ?\DateTimeInterface $dateCreated = null;
 
-    #[ORM\Column(length: 255)]
+    #[ORM\Column(length: 255, nullable: true)]
     private ?string $image = null;
 
-    #[ORM\ManyToOne(targetEntity: self::class, inversedBy: 'projects')]
-    private ?self $Category = null;
+    #[ORM\ManyToOne(targetEntity: Category::class, inversedBy: 'projects')]
+    #[ORM\JoinColumn(nullable: false)]
+    private ?Category $category = null;
 
     /**
      * @var Collection<int, self>
      */
-    #[ORM\OneToMany(targetEntity: self::class, mappedBy: 'Category')]
+    #[ORM\OneToMany(targetEntity: self::class, mappedBy: 'category', orphanRemoval: true)]
     private Collection $projects;
 
     public function __construct()
     {
         $this->projects = new ArrayCollection();
+        $this->dateCreated = new \DateTime(); // Initialise automatiquement la date de création
     }
 
     public function getId(): ?int
@@ -55,7 +57,6 @@ class Project
     public function setTitle(string $title): static
     {
         $this->title = $title;
-
         return $this;
     }
 
@@ -67,7 +68,6 @@ class Project
     public function setDescription(string $description): static
     {
         $this->description = $description;
-
         return $this;
     }
 
@@ -79,7 +79,6 @@ class Project
     public function setDateCreated(\DateTimeInterface $dateCreated): static
     {
         $this->dateCreated = $dateCreated;
-
         return $this;
     }
 
@@ -88,22 +87,20 @@ class Project
         return $this->image;
     }
 
-    public function setImage(string $image): static
+    public function setImage(?string $image): static
     {
         $this->image = $image;
-
         return $this;
     }
 
-    public function getCategory(): ?self
+    public function getCategory(): ?Category
     {
-        return $this->Category;
+        return $this->category;
     }
 
-    public function setCategory(?self $Category): static
+    public function setCategory(?Category $category): static
     {
-        $this->Category = $Category;
-
+        $this->category = $category;
         return $this;
     }
 
@@ -121,19 +118,17 @@ class Project
             $this->projects->add($project);
             $project->setCategory($this);
         }
-
         return $this;
     }
 
     public function removeProject(self $project): static
     {
         if ($this->projects->removeElement($project)) {
-            // set the owning side to null (unless already changed)
+            // Set the owning side to null (unless already changed)
             if ($project->getCategory() === $this) {
                 $project->setCategory(null);
             }
         }
-
         return $this;
     }
 }
