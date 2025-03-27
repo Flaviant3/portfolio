@@ -1,0 +1,19 @@
+{# project/show.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Détails du projet{% endblock %}
+
+{% block body %}
+    <h1>{{ project.title }}</h1>
+    <p>{{ project.description }}</p>
+
+    {% if project.image %}
+        <img src="{{ asset('uploads/' ~ project.image) }}" alt="Image du projet" />
+    {% endif %}
+
+    <p>Date de création : {{ project.dateCreated|date('d/m/Y H:i') }}</p>
+    <p>Catégorie : {{ project.category.name }}</p>
+
+    <a href="{{ path('projects') }}">Retour à la liste des projets</a>
+{% endblock %}
