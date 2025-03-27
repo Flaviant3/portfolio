@@ -2,13 +2,13 @@
 
 namespace App\Entity;
 
-use App\Repository\CriticalLearningRepository;
+use App\Repository\SkillRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: CriticalLearningRepository::class)]
-class CriticalLearning
+#[ORM\Entity(repositoryClass: SkillRepository::class)]
+class Skill
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]

@@ -2,21 +2,21 @@
 
 namespace App\Repository;
 
-use App\Entity\CriticalLearning;
+use App\Entity\Skill;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
- * @method CriticalLearning|null find($id, $lockMode = null, $lockVersion = null)
- * @method CriticalLearning|null findOneBy(array $criteria, array $orderBy = null)
- * @method CriticalLearning[]    findAll()
- * @method CriticalLearning[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
+ * @method Skill|null find($id, $lockMode = null, $lockVersion = null)
+ * @method Skill|null findOneBy(array $criteria, array $orderBy = null)
+ * @method Skill[]    findAll()
+ * @method Skill[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class CriticalLearningRepository extends ServiceEntityRepository
+class SkillRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
     {
-        parent::__construct($registry, CriticalLearning::class);
+        parent::__construct($registry, Skill::class);
     }
 
     // Récupérer tous les apprentissages d'une catégorie spécifique

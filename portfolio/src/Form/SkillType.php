@@ -1,10 +1,10 @@
 <?php
 
-// src/Form/CriticalLearningType.php
+// src/Form/SkillType.php
 
 namespace App\Form;
 
-use App\Entity\CriticalLearning;
+use App\Entity\Skill;
 use App\Entity\Category;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\FileType;
@@ -15,7 +15,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 
-class CriticalLearningType extends AbstractType
+class SkillType extends AbstractType
 {
 public function buildForm(FormBuilderInterface $builder, array $options): void
 {
@@ -45,7 +45,7 @@ $builder
 public function configureOptions(OptionsResolver $resolver): void
 {
 $resolver->setDefaults([
-'data_class' => CriticalLearning::class,
+'data_class' => Skill::class,
 ]);
 }
 }
