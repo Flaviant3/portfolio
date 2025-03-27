@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ category }} - Apprentissages Critiques{% endblock %}
+
+{% block body %}
+    <h1>Apprentissages Critiques - {{ category }}</h1>
+
+    <ul>
+        {% for learning in criticalLearnings %}
+            <li>
+                <strong>{{ learning.title }}</strong> - {{ learning.description }} <br>
+                Créé le : {{ learning.dateCreated|date('d/m/Y H:i') }}
+                {% if learning.image %}
+                    <img src="{{ asset('uploads/' ~ learning.image) }}" alt="{{ learning.title }}" style="max-width: 300px; height: auto;">
+                {% endif %}
+            </li>
+        {% else %}
+            <p>Aucun apprentissage critique disponible dans cette catégorie.</p>
+        {% endfor %}
+    </ul>
+
+    {# Lien pour ajouter un apprentissage critique dans cette catégorie #}
+    <a href="{{ path('add_critical_learning') }}">Ajouter un apprentissage critique</a>
+{% endblock %}

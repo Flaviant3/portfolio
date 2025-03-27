@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ skill.title }}{% endblock %}
+
+{% block body %}
+    <h1>{{ skill.title }}</h1>
+    <p>{{ skill.description }}</p>
+    <p>Créé le : {{ skill.dateCreated|date('d/m/Y H:i') }}</p>
+
+    {% if skill.image %}
+        <img src="{{ asset('uploads/' ~ skill.image) }}" alt="{{ skill.title }}" style="max-width: 500px; height: auto;">
+    {% else %}
+        <p>Aucune image disponible.</p>
+    {% endif %}
+
+    <br>
+    <a href="{{ path('skills_list') }}" class="btn btn-secondary">Retour à la liste</a>
+{% endblock %}

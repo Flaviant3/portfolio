@@ -10,7 +10,7 @@ use Doctrine\Migrations\AbstractMigration;
 /**
  * Auto-generated Migration: Please modify to your needs!
  */
-final class Version20250326203735 extends AbstractMigration
+final class Version20250326231244 extends AbstractMigration
 {
     public function getDescription(): string
     {
@@ -21,10 +21,10 @@ final class Version20250326203735 extends AbstractMigration
     {
         // this up() migration is auto-generated, please modify it to your needs
         $this->addSql(<<<'SQL'
-            ALTER TABLE project CHANGE category_id category_id INT NOT NULL, CHANGE image image VARCHAR(255) DEFAULT NULL
+            CREATE TABLE critical_learning (id INT AUTO_INCREMENT NOT NULL, category_id INT NOT NULL, title VARCHAR(255) NOT NULL, description LONGTEXT NOT NULL, date_created DATETIME NOT NULL, image VARCHAR(255) DEFAULT NULL, INDEX IDX_FD3E33DB12469DE2 (category_id), PRIMARY KEY(id)) DEFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB
         SQL);
         $this->addSql(<<<'SQL'
-            ALTER TABLE project ADD CONSTRAINT FK_2FB3D0EE12469DE2 FOREIGN KEY (category_id) REFERENCES category (id)
+            ALTER TABLE critical_learning ADD CONSTRAINT FK_FD3E33DB12469DE2 FOREIGN KEY (category_id) REFERENCES category (id)
         SQL);
     }
 
@@ -32,10 +32,10 @@ final class Version20250326203735 extends AbstractMigration
     {
         // this down() migration is auto-generated, please modify it to your needs
         $this->addSql(<<<'SQL'
-            ALTER TABLE project DROP FOREIGN KEY FK_2FB3D0EE12469DE2
+            ALTER TABLE critical_learning DROP FOREIGN KEY FK_FD3E33DB12469DE2
         SQL);
         $this->addSql(<<<'SQL'
-            ALTER TABLE project CHANGE category_id category_id INT DEFAULT NULL, CHANGE image image VARCHAR(255) NOT NULL
+            DROP TABLE critical_learning
         SQL);
     }
 }
