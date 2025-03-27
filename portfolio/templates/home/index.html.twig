@@ -2,6 +2,145 @@
 
 {% block title %}Accueil{% endblock %}
 
+{% block stylesheets %}
+    <style>
+        /* 🌟 Style Général */
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #ffffff;
+            background: linear-gradient(135deg, #1E1E2E, #252542);
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* 🚀 Section Hero */
+        .hero {
+            margin-top: 80px;
+            padding: 60px 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+
+        /* 💡 Section About */
+        .about, .projects, .contact {
+            margin-top: 50px;
+            padding: 40px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .about h2, .projects h2, .contact h2 {
+            color: #ffcc00;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        /* 🚀 Section Projets */
+        .projects-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* 📬 Section Contact */
+        .contact p {
+            font-size: 1.1em;
+            opacity: 0.8;
+        }
+
+        /* 🎨 Bouton Stylé */
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            font-weight: bold;
+            background: #ffcc00;
+            color: #1E1E2E;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background: #ffaa00;
+            transform: scale(1.05);
+        }
+    </style>
+{% endblock %}
+
 {% block body %}
-    <h1>Bienvenue sur mon Portfolio</h1>
+
+    <!-- 🌟 Section d'accueil -->
+    <section class="hero">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Développeur passionné, créatif et toujours en quête d'innovation.</p>
+        <a href="{{ path('projects') }}" class="btn">Voir mes Projets</a>
+    </section>
+
+    <!-- 💡 Section À propos -->
+    <section class="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis un développeur full-stack avec une expertise en <strong>Python, JavaScript et Symfony</strong>. J'adore créer des applications performantes et intuitives.</p>
+    </section>
+
+    <!-- 🚀 Section Projets -->
+    <section class="projects">
+        <h2>Mes Projets</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Projet 1">
+                <h3>Projet 1</h3>
+                <p>Une application innovante pour gérer tes tâches efficacement.</p>
+                <a href="#" class="btn">Découvrir</a>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Projet 2">
+                <h3>Projet 2</h3>
+                <p>Un site e-commerce optimisé pour une expérience fluide.</p>
+                <a href="#" class="btn">Découvrir</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📬 Section Contact -->
+    <section class="contact">
+        <h2>Me Contacter</h2>
+        <p>Envie de collaborer ou d’échanger ? N'hésite pas à me contacter !</p>
+        <a href="{{ path('contact') }}" class="btn">Contactez-moi</a>
+    </section>
+
 {% endblock %}
