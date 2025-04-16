@@ -31,6 +31,30 @@ class ProjectService
             'dateCreated' => '2025-01-20 09:30:00',
             'category' => 'Mobile',
         ],
+        [
+            'title' => 'Projet 3',
+            'slug' => 'projet-3',
+            'description' => 'Application mobile en Flutter avec design futuriste.',
+            'image' => 'projet3.png', // 🔄
+            'dateCreated' => '2025-01-20 09:30:00',
+            'category' => 'Mobile',
+        ],
+        [
+            'title' => 'Projet 3',
+            'slug' => 'projet-3',
+            'description' => 'Application mobile en Flutter avec design futuriste.',
+            'image' => 'projet3.png', // 🔄
+            'dateCreated' => '2025-01-20 09:30:00',
+            'category' => 'Mobile',
+        ],
+        [
+            'title' => 'Projet 3',
+            'slug' => 'projet-3',
+            'description' => 'Application mobile en Flutter avec design futuriste.',
+            'image' => 'projet3.png', // 🔄
+            'dateCreated' => '2025-01-20 09:30:00',
+            'category' => 'Mobile',
+        ],
     ];
 
     public function getAllProjects(): array

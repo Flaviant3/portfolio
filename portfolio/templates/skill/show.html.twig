@@ -1,0 +1,27 @@
+{# templates/skill/show.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Détail de la compétence: {{ skill.name }}{% endblock %}
+
+{% block body %}
+    <h1>Détail de la compétence</h1>
+
+    <div class="skill-detail">
+        {% if skill.image %}
+            <img src="{{ asset('images/' ~ skill.image) }}" alt="{{ skill.name }}" style="max-width: 400px; border-radius: 10px;">
+        {% else %}
+            <img src="https://via.placeholder.com/400x300.png?text=Pas+d'image" alt="Pas d'image" style="max-width: 400px;">
+        {% endif %}
+
+        <h2>{{ skill.name }}</h2>
+        <p><strong>Code:</strong> {{ skill.code }}</p>
+        <p><strong>Description:</strong> {{ skill.description }}</p>
+
+        {# Si tu veux afficher d'autres informations comme la date et le module, tu peux ajouter ici #}
+        <p><strong>Date ajoutée:</strong> {{ "now"|date("d-m-Y") }}</p>
+        <p><strong>Module:</strong> Module Exemple</p>
+
+        <a href="{{ path('skills_list') }}" class="btn">Retour à la liste des compétences</a>
+    </div>
+{% endblock %}

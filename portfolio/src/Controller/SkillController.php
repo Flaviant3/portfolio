@@ -1,83 +1,65 @@
 <?php
 
+// src/Controller/SkillController.php
+
 namespace App\Controller;
 
-use App\Entity\Skill;
-use App\Form\SkillType;
-use Doctrine\ORM\EntityManagerInterface;
+use App\Service\SkillService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\HttpFoundation\File\Exception\FileException;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Symfony\Component\String\Slugger\SluggerInterface;
-use App\Repository\SkillRepository;
 
 class SkillController extends AbstractController
 {
-    #[Route('/skills', name: 'skills_list')]
-    public function index(SkillRepository $skillRepository): Response
+    private SkillService $skillService;
+
+    public function __construct(SkillService $skillService)
     {
-        $criticalLearnings = $skillRepository->findAll(); // Récupération des données
+        $this->skillService = $skillService;
+    }
+
+    #[Route('/skills', name: 'skills_list')]
+    public function index(): Response
+    {
+        $skills = $this->skillService->getAllSkills();
 
         return $this->render('skill/index.html.twig', [
-            'skills' => $criticalLearnings, // Transmettre correctement la variable
+            'skills' => $skills,
         ]);
     }
 
-    #[Route('/skill/{id}', name: 'skill_detail')]
-    public function detail(int $id, SkillRepository $skillRepository): Response
+    #[Route('/skill/{code}', name: 'skill_detail')]
+    public function detail(string $code): Response
     {
-        $skill = $skillRepository->find($id);
+        $skill = $this->skillService->getSkillByCode($code);
 
         if (!$skill) {
             throw $this->createNotFoundException("Compétence introuvable.");
         }
 
-        return $this->render('skill/detail.html.twig', [
+        return $this->render('skill/show.html.twig', [
             'skill' => $skill,
         ]);
     }
 
-
-    #[Route('/add-critical-learning', name: 'add_critical_learning')]
-    public function addCriticalLearning(Request $request, EntityManagerInterface $entityManager, SluggerInterface $slugger): Response
+    #[Route('/skill/add', name: 'add_skill')]
+    public function add(Request $request): Response
     {
-        $skill = new Skill();
-        $form = $this->createForm(SkillType::class, $skill);
-        $form->handleRequest($request);
+        if ($request->isMethod('POST')) {
+            $code = $request->request->get('code');
+            $name = $request->request->get('name');
+            $description = $request->request->get('description');
 
-        if ($form->isSubmitted() && $form->isValid()) {
-            /** @var UploadedFile $imageFile */
-            $imageFile = $form->get('image')->getData();
+            $this->skillService->addSkill([
+                'code' => $code,
+                'name' => $name,
+                'description' => $description,
+            ]);
 
-            if ($imageFile) {
-                $originalFilename = pathinfo($imageFile->getClientOriginalName(), PATHINFO_FILENAME);
-                $safeFilename = $slugger->slug($originalFilename);
-                $newFilename = $safeFilename . '-' . uniqid() . '.' . $imageFile->guessExtension();
-
-                try {
-                    $imageFile->move(
-                        $this->getParameter('uploads_directory'),
-                        $newFilename
-                    );
-                } catch (FileException $e) {
-                    throw new \Exception('Erreur lors de l\'upload de l\'image');
-                }
-
-                $skill->setImage($newFilename);
-            }
-
-            $entityManager->persist($skill);
-            $entityManager->flush();
-
-            $this->addFlash('success', 'Apprentissage critique ajouté avec succès !');
+            $this->addFlash('success', 'Compétence ajoutée avec succès!');
             return $this->redirectToRoute('skills_list');
         }
 
-        return $this->render('skill/add.html.twig', [
-            'form' => $form->createView(),
-        ]);
+        return $this->render('skill/add.html.twig');
     }
 }

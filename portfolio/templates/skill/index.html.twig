@@ -2,22 +2,20 @@
 
 {% extends 'base.html.twig' %}
 
-{% block title %}Liste des Apprentissages Critiques{% endblock %}
+{% block title %}Liste des Compétences{% endblock %}
 
 {% block body %}
-    <h1>Liste des Apprentissages Critiques</h1>
+    <h1>Liste des Compétences</h1>
 
     <ul>
         {% for skill in skills %}
             <li>
-                <a href="{{ path('skill_detail', { 'id': skill.id }) }}">
-                    <strong>{{ skill.title }}</strong>
+                <a href="{{ path('skill_detail', { 'code': skill.code }) }}">
+                    <strong>{{ skill.code }}:</strong> {{ skill.name }}
                 </a>
             </li>
-        {% else %}
-            <p>Aucun apprentissage critique disponible.</p>
         {% endfor %}
     </ul>
 
-    <a href="{{ path('add_critical_learning') }}" class="btn btn-primary">Ajouter un apprentissage critique</a>
+    <a href="{{ path('add_skill') }}">Ajouter une compétence</a>
 {% endblock %}
