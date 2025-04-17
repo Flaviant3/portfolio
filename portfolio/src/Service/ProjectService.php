@@ -8,10 +8,10 @@ class ProjectService
 {
     private array $projects = [
         [
-            'title' => 'Projet 1',
+            'title' => 'Chaine YouTube',
             'slug' => 'projet-1',
             'description' => 'Une application web super stylée.',
-            'image' => 'https://i.imgur.com/yWcPc0z.png', // 🔄
+            'image' => 'https://m.media-amazon.com/images/I/4195dyf+rFL.png', // 🔄
             'dateCreated' => '2023-10-10 12:00:00',
             'category' => 'Web',
         ],

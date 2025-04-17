@@ -1,21 +1,89 @@
-{# templates/skill/index.html.twig #}
-
 {% extends 'base.html.twig' %}
 
 {% block title %}Liste des Compétences{% endblock %}
 
+{% block stylesheets %}
+    <style>
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .skill-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: scale(1.05);
+        }
+
+        .skill-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .skill-card h3 {
+            font-size: 1.2em; /* ← Réduit ici */
+            color: #ffcc00;
+            margin: 10px 0 5px 0;
+        }
+
+        .skill-card p {
+            font-size: 0.95em;
+            opacity: 0.8;
+            margin: 6px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #ffcc00;
+            color: #1E1E2E;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #ffaa00;
+            transform: scale(1.05);
+        }
+    </style>
+{% endblock %}
+
 {% block body %}
-    <h1>Liste des Compétences</h1>
+    <h1>Liste des Apprentisages Critiques</h1>
 
-    <ul>
+    <div class="skill-list">
         {% for skill in skills %}
-            <li>
-                <a href="{{ path('skill_detail', { 'code': skill.code }) }}">
-                    <strong>{{ skill.code }}:</strong> {{ skill.name }}
-                </a>
-            </li>
+            <div class="skill-card">
+                {% if skill.image %}
+                    <img src="{{ skill.image }}" alt="{{ skill.name }}">
+                {% else %}
+                    <img src="https://via.placeholder.com/300x200.png?text=Aucune+Image" alt="Pas d'image">
+                {% endif %}
+                <h3>{{ skill.name }}</h3>
+                <p><strong>{{ skill.code }}</strong></p>
+                <a href="{{ path('skill_detail', { 'code': skill.code }) }}" class="btn">Voir plus</a>
+            </div>
         {% endfor %}
-    </ul>
+    </div>
 
-    <a href="{{ path('add_skill') }}">Ajouter une compétence</a>
+    <div style="text-align: center; margin-top: 40px;">
+        <a href="{{ path('add_skill') }}" class="btn">Ajouter une compétence</a>
+    </div>
 {% endblock %}
