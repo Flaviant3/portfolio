@@ -4,7 +4,6 @@
 
 {% block stylesheets %}
     <style>
-        /* 🌟 Style Général */
         body {
             font-family: 'Poppins', sans-serif;
             color: #ffffff;
@@ -13,7 +12,6 @@
             padding: 20px;
         }
 
-        /* 🚀 Section Hero */
         .hero {
             margin-top: 80px;
             padding: 60px 20px;
@@ -33,8 +31,7 @@
             opacity: 0.8;
         }
 
-        /* 💡 Section About */
-        .about, .projects, .contact {
+        .about, .projects, .contact, .timeline, .stack, .feedback, .fun, .testimonials {
             margin-top: 50px;
             padding: 40px 20px;
             background: rgba(255, 255, 255, 0.1);
@@ -42,13 +39,12 @@
             box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
         }
 
-        .about h2, .projects h2, .contact h2 {
+        .about h2, .projects h2, .contact h2, .timeline h2, .stack h2, .feedback h2, .fun h2, .testimonials h2 {
             color: #ffcc00;
             font-size: 2em;
             margin-bottom: 15px;
         }
 
-        /* 🚀 Section Projets */
         .projects-container {
             display: flex;
             justify-content: center;
@@ -75,13 +71,6 @@
             transform: scale(1.05);
         }
 
-        /* 📬 Section Contact */
-        .contact p {
-            font-size: 1.1em;
-            opacity: 0.8;
-        }
-
-        /* 🎨 Bouton Stylé */
         .btn {
             display: inline-block;
             margin-top: 15px;
@@ -99,24 +88,58 @@
             background: #ffaa00;
             transform: scale(1.05);
         }
+
+        .timeline ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .timeline li {
+            margin: 10px 0;
+        }
+
+        .stack-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            font-size: 2em;
+        }
+
+        .feedback form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .feedback textarea {
+            width: 80%;
+            height: 100px;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .testimonials blockquote {
+            font-style: italic;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
     </style>
 {% endblock %}
 
 {% block body %}
-    <!-- 🌟 Section d'accueil -->
     <section class="hero">
         <h1>Bienvenue sur mon Portfolio</h1>
         <p>Développeur passionné, créatif et toujours en quête d'innovation.</p>
         <a href="{{ path('projects') }}" class="btn">Voir mes Projets</a>
     </section>
 
-    <!-- 💡 Section À propos -->
     <section class="about">
         <h2>À propos de moi</h2>
         <p>Je suis un développeur full-stack avec une expertise en <strong>Python, JavaScript et Symfony</strong>. J'adore créer des applications performantes et intuitives.</p>
     </section>
 
-    <!-- 🚀 Section Projets -->
     <section class="projects">
         <h2>Mes Projets</h2>
         <div class="projects-container">
@@ -135,7 +158,37 @@
         </div>
     </section>
 
-    <!-- 📬 Section Contact -->
+    <section class="timeline">
+        <h2>Mon Parcours</h2>
+        <ul>
+            <li>2020 - BTS SIO</li>
+            <li>2022 - Stage développeur Symfony</li>
+            <li>2023 - Développement de projets fullstack</li>
+        </ul>
+    </section>
+
+    <section class="stack">
+        <h2>Stack Technique</h2>
+        <div class="stack-icons">
+            <span>🐍 Python</span>
+            <span>⚙️ Symfony</span>
+            <span>⚛️ React</span>
+            <span>🌐 HTML/CSS/JS</span>
+            <span>🛢️ MySQL</span>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Témoignages</h2>
+        <blockquote>"Travail sérieux et toujours à l’écoute des besoins." - Professeur M.</blockquote>
+        <blockquote>"Un vrai sens du détail et de la qualité." - Client X.</blockquote>
+    </section>
+
+    <section class="fun">
+        <h2>Fun Zone 🎮</h2>
+        <p>Un mini-jeu ou animation à venir... 👀</p>
+    </section>
+
     <section class="contact">
         <h2>Me Contacter</h2>
         <p>Envie de collaborer ou d’échanger ? N'hésite pas à me contacter !</p>
