@@ -121,6 +121,13 @@
             </div>
         {% endif %}
 
+        {% if skill.image_illustration2 %}
+            <div class="image-container">
+                <img src="{{ skill.image_illustration2 }}" alt="Seconde illustration" class="illustration-image">
+            </div>
+        {% endif %}
+
+
         <!-- Lien pour voir le projet -->
         {% if skill.project_link %}
             <a href="{{ skill.project_link }}" class="view-project-btn" target="_blank">
