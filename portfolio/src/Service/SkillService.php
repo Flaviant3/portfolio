@@ -10,6 +10,8 @@ class SkillService
         [
             'code' => 'AC11.01',
             'name' => 'Présenter une organisation, ses activités et son environnement',
+            'category' => 'Comprendre', // ✅ Ajouté
+            'year' => '1ère année',     // ✅ Ajouté
             'description' => <<<HTML
 <p>Dans le cadre de mes études, j'ai effectué des travaux portant sur deux thématiques liées au numérique :</p>
 
@@ -32,6 +34,8 @@ HTML,
         [
             'code' => 'AC11.02',
             'name' => 'Évaluer un site web, un produit multimédia ou un dispositif interactif existant en s’appuyant sur des guides de bonnes pratiques',
+            'category' => 'Comprendre', // ✅ Ajouté
+            'year' => '1ère année',    // ✅ Ajouté
             'description' => <<<HTML
 <p>Dans le cadre de ce projet, j'ai réalisé une évaluation approfondie d'un site web en m'appuyant sur des guides de bonnes pratiques. Plusieurs aspects clés ont été étudiés :</p>
 
@@ -56,6 +60,8 @@ HTML,
         [
             'code' => 'AC11.03',
             'name' => 'Produire des analyses statistiques descriptives et les interpréter pour évaluer un contexte socio-économique',
+            'category' => 'Comprendre', // ✅ Ajouté
+            'year' => '1ère année',
             'description' => <<<HTML
 <p>Dans le cadre de la <strong>SAE 101</strong>, j'ai participé à une étude approfondie des données statistiques issues des sites web de musées, afin de produire une analyse sectorielle pertinente et ciblée.</p>
 
@@ -79,6 +85,8 @@ HTML,
         [
             'code' => 'AC11.04',
             'name' => 'Analyser des formes médiatiques et leur sémiotique',
+            'category' => 'Comprendre', // ✅ Ajouté
+            'year' => '1ère année',
             'description' => <<<HTML
 <p>Dans le cadre de ce projet, j'ai réalisé une <strong>analyse sémiotique et graphique</strong> de plusieurs sites web marchands afin de comprendre leur impact visuel et leur communication implicite.</p>
 
@@ -108,6 +116,8 @@ HTML,
         [
             'code' => 'AC11.05',
             'name' => 'Identifier les cibles (critères socio-économiques, démographiques, géographiques, culturels...)',
+            'category' => 'Comprendre', // ✅ Ajouté
+            'year' => '1ère année',
             'description' => <<<HTML
 <p>Dans le cadre de la <strong>SAE 101</strong>, j'ai participé à une étude ciblée visant à évaluer l’efficacité de la communication numérique de plusieurs <strong>sites web de musées</strong>.</p>
 
@@ -132,6 +142,8 @@ HTML,
         [
             'code' => 'AC11.06',
             'name' => 'Réaliser des entretiens utilisateurs pour construire des personae et des récits utilisateurs (user stories)',
+            'category' => 'Comprendre', // ✅ Ajouté
+            'year' => '1ère année',
             'description' => <<<HTML
 <p>Dans le cadre du <strong>projet SAE 201</strong>, nous avons mené une analyse approfondie du public cible d'une <strong>application de déplacement à vélo</strong>.</p>
 
@@ -144,7 +156,7 @@ HTML,
 
 <p>Les résultats ont été présentés dans le cadre d’un livrable <strong>SAE 201</strong>, accessible ci-dessous.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image principale liée à la thématique vélo/app
+            'image' => 'https://i.imgur.com/SQFDuQW.png', // Image principale liée à la thématique vélo/app
             'image_illustration' => 'https://i.imgur.com/d5727SB.jpeg', // Illustration 1 : graphique ou données issues de l’analyse
             'image_illustration2' => 'https://i.imgur.com/PBC8hMW.jpeg', // Illustration 2 : exemple de persona ou user story
             'project' => [
@@ -156,6 +168,8 @@ HTML,
         [
             'code' => 'AC21.01',
             'name' => 'Analyser la stratégie de communication ou marketing d’un acteur, d’une organisation au regard d’un secteur ou d’un marché (stratégie, mission, valeurs...)',
+            'category' => 'Comprendre', // ✅ Ajouté
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le cadre de ce projet, j’ai réalisé une <strong>analyse stratégique approfondie</strong> d’un acteur du marché en matière de communication et de marketing.</p>
 
@@ -168,7 +182,7 @@ HTML,
 
 <p>Ce travail m’a permis de développer une vision critique sur les stratégies de marque et d’identifier les leviers d’optimisation dans un contexte concurrentiel.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Illustration principale : image représentant le branding, marketing ou stratégie
+            'image' => 'https://i.imgur.com/AmZDl5z.png', // Illustration principale : image représentant le branding, marketing ou stratégie
             'image_illustration' => 'https://i.imgur.com/GJIPNa6.jpeg',
             'image_illustration2' => '',// Optionnel : visuel complémentaire lié à la stratégie ou analyse de marque
             'project' => [
@@ -192,7 +206,7 @@ HTML,
 
 <p>Cette démarche m’a permis de développer une vision globale et critique de la présence en ligne d’une marque, ainsi que des leviers à activer pour l’optimiser.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image principale illustrant le référencement ou l’analyse web
+            'image' => 'https://i.imgur.com/EGGsLxs.png', // Image principale illustrant le référencement ou l’analyse web
             'image_illustration' => 'https://i.imgur.com/fgxl0Sa.png',
             'image_illustration2' => 'https://i.imgur.com/CZWgJ6M.jpeg',// Graphique ou visuel complémentaire (ex : dashboard, trafic SEO)
             'project' => [
@@ -376,4 +390,14 @@ HTML,
         }
         return null;
     }
+
+    public function getFilteredSkills(?string $category = null, ?string $year = null): array
+    {
+        return array_filter($this->skills, function ($skill) use ($category, $year) {
+            $matchCategory = !$category || (isset($skill['category']) && $skill['category'] === $category);
+            $matchYear = !$year || (isset($skill['year']) && $skill['year'] === $year);
+            return $matchCategory && $matchYear;
+        });
+    }
+
 }

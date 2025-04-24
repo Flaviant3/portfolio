@@ -62,11 +62,107 @@
             background-color: #ffaa00;
             transform: scale(1.05);
         }
+        .filters {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            margin: 0 auto 30px auto;
+            background-color: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            max-width: 800px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .filters select {
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: none;
+            background-color: #1E1E2E;
+            color: #ffcc00;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            appearance: none;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .filters select:hover {
+            background-color: #2a2a40;
+        }
+
+        .filters button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #ffcc00;
+            color: #1E1E2E;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .filters button:hover {
+            background-color: #ffaa00;
+            transform: scale(1.05);
+        }
+        .skill-category {
+            display: inline-block;
+            padding: 5px 10px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: bold;
+            color: #1E1E2E;
+            background-color: #ccc; /* fallback */
+        }
+
+        /* Couleurs par catégorie */
+        .skill-category.comprendre {
+            background-color: #ffcc00;
+        }
+
+        .skill-category.concevoir {
+            background-color: #00c2ff;
+        }
+
+        .skill-category.exprimer {
+            background-color: #ff7eb3;
+        }
+
+        .skill-category.entreprendre {
+            background-color: #8aff84;
+        }
+
+        .skill-category.developpe {
+            background-color: #e87dff;
+        }
     </style>
 {% endblock %}
 
 {% block body %}
     <h1>Liste des Apprentisages Critiques</h1>
+
+    <form method="get" class="filters">
+        <select name="category">
+            <option value="">Toutes les catégories</option>
+            {% for cat in ['Comprendre', 'Concevoir', 'Exprimer', 'Entreprendre', 'Développé'] %}
+                <option value="{{ cat }}" {% if selected_category == cat %}selected{% endif %}>{{ cat }}</option>
+            {% endfor %}
+        </select>
+
+        <select name="year">
+            <option value="">Toutes les années</option>
+            {% for y in ['1ère année', '2ème année', '3ème année'] %}
+                <option value="{{ y }}" {% if selected_year == y %}selected{% endif %}>{{ y }}</option>
+            {% endfor %}
+        </select>
+
+        <button type="submit">Filtrer</button>
+    </form>
 
     <div class="skill-list">
         {% for skill in skills %}
@@ -76,6 +172,14 @@
                 {% else %}
                     <img src="https://via.placeholder.com/300x200.png?text=Aucune+Image" alt="Pas d'image">
                 {% endif %}
+
+                {% if skill.category is defined %}
+                    <span class="skill-category {{ skill.category|lower|replace({'é':'e', 'è':'e', 'ê':'e', 'à':'a'})|replace({' ':'-'}) }}">
+        {{ skill.category }}
+    </span>
+                {% endif %}
+
+
                 <h3>{{ skill.name }}</h3>
                 <p><strong>{{ skill.code }}</strong></p>
                 <a href="{{ path('skill_detail', { 'code': skill.code }) }}" class="btn">Voir plus</a>
@@ -83,7 +187,5 @@
         {% endfor %}
     </div>
 
-    <div style="text-align: center; margin-top: 40px;">
-        <a href="{{ path('add_skill') }}" class="btn">Ajouter une compétence</a>
-    </div>
+
 {% endblock %}

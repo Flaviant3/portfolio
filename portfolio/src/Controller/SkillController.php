@@ -1,65 +1,47 @@
 <?php
 
-// src/Controller/SkillController.php
-
 namespace App\Controller;
 
 use App\Service\SkillService;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Request; // 👈 AJOUT ICI
 use Symfony\Component\Routing\Annotation\Route;
 
 class SkillController extends AbstractController
 {
-    private SkillService $skillService;
+private SkillService $skillService;
 
-    public function __construct(SkillService $skillService)
-    {
-        $this->skillService = $skillService;
-    }
+public function __construct(SkillService $skillService)
+{
+$this->skillService = $skillService;
+}
 
-    #[Route('/skills', name: 'skills_list')]
-    public function index(): Response
-    {
-        $skills = $this->skillService->getAllSkills();
+#[Route('/skills', name: 'skills_list')]
+public function index(Request $request): Response // 👈 Bien typé maintenant
+{
+$category = $request->query->get('category');
+$year = $request->query->get('year');
+$skills = $this->skillService->getFilteredSkills($category, $year);
 
-        return $this->render('skill/index.html.twig', [
-            'skills' => $skills,
-        ]);
-    }
+return $this->render('skill/index.html.twig', [
+'skills' => $skills,
+'selected_category' => $category,
+'selected_year' => $year,
+]);
+}
 
-    #[Route('/skill/{code}', name: 'skill_detail')]
-    public function detail(string $code): Response
-    {
-        $skill = $this->skillService->getSkillByCode($code);
+#[Route('/skill/{code}', name: 'skill_detail')]
+public function detail(string $code): Response
+{
+$skill = $this->skillService->getSkillByCode($code);
 
-        if (!$skill) {
-            throw $this->createNotFoundException("Compétence introuvable.");
-        }
+if (!$skill) {
+throw $this->createNotFoundException("Compétence introuvable.");
+}
 
-        return $this->render('skill/show.html.twig', [
-            'skill' => $skill,
-        ]);
-    }
-
-    #[Route('/skill/add', name: 'add_skill')]
-    public function add(Request $request): Response
-    {
-        if ($request->isMethod('POST')) {
-            $code = $request->request->get('code');
-            $name = $request->request->get('name');
-            $description = $request->request->get('description');
-
-            $this->skillService->addSkill([
-                'code' => $code,
-                'name' => $name,
-                'description' => $description,
-            ]);
-
-            $this->addFlash('success', 'Compétence ajoutée avec succès!');
-            return $this->redirectToRoute('skills_list');
-        }
-
-        return $this->render('skill/add.html.twig');
-    }
+return $this->render('skill/show.html.twig', [
+'skill' => $skill,
+]);
+}
 }
