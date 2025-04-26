@@ -1,19 +1,112 @@
-{# project/show.html.twig #}
-
 {% extends 'base.html.twig' %}
 
-{% block title %}Détails du projet{% endblock %}
+{% block title %}{{ project.title }}{% endblock %}
+
+{% block stylesheets %}
+    <style>
+        .project-detail {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        }
+
+        .project-detail img {
+            max-width: 100%;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        .badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .badge {
+            background: #ffcc00;
+            color: #1E1E2E;
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .btn-group a {
+            margin: 10px 10px 0 0;
+            display: inline-block;
+            background: #ffaa00;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .btn-group a:hover {
+            background: #ffcc00;
+            color: #1E1E2E;
+        }
+
+        .highlights {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .highlights li {
+            margin-bottom: 8px;
+            list-style: "✅ ";
+            padding-left: 10px;
+        }
+    </style>
+{% endblock %}
 
 {% block body %}
-    <h1>{{ project.title }}</h1>
-    <p>{{ project.description }}</p>
+    <div class="project-detail">
+        <h1>{{ project.title }}</h1>
 
-    {% if project.image %}
-        <img src="{{ asset('uploads/' ~ project.image) }}" alt="Image du projet" />
-    {% endif %}
+        <p><strong>Catégorie :</strong> {{ project.category }}</p>
+        <p><strong>Créé le :</strong> {{ project.dateCreated|date('d/m/Y H:i') }}</p>
+        <p><strong>Statut :</strong> {{ project.status ?? 'N/A' }}</p>
+        <p><strong>Client :</strong> {{ project.client ?? 'Projet personnel' }}</p>
+        <p><strong>Durée :</strong> {{ project.duration ?? 'Non précisé' }}</p>
+        <p><strong>Rôle :</strong> {{ project.role ?? 'Développeur' }}</p>
 
-    <p>Date de création : {{ project.dateCreated|date('d/m/Y H:i') }}</p>
-    <p>Catégorie : {{ project.category.name }}</p>
+        {% if project.image %}
+            <img src="{{ project.image }}" alt="{{ project.title }}">
+        {% endif %}
 
-    <a href="{{ path('projects') }}">Retour à la liste des projets</a>
+        <p>{{ project.description }}</p>
+
+        {% if project.technologies is defined and project.technologies is iterable %}
+            <div class="badges">
+                {% for tech in project.technologies %}
+                    <span class="badge">{{ tech }}</span>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% if project.highlights is defined and project.highlights is iterable %}
+            <div class="highlights">
+                <h3>🔍 Points forts :</h3>
+                <ul>
+                    {% for point in project.highlights %}
+                        <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+
+        <div class="btn-group">
+            {% if project.liveDemo %}
+                <a href="{{ project.liveDemo }}" target="_blank">🌐 Démo en ligne</a>
+            {% endif %}
+            {% if project.repository %}
+                <a href="{{ project.repository }}" target="_blank">📂 Code Source</a>
+            {% endif %}
+            <a href="{{ path('projects') }}">⬅️ Retour</a>
+        </div>
+    </div>
 {% endblock %}
