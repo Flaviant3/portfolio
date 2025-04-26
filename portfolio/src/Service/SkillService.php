@@ -234,7 +234,7 @@ HTML,
 
 <p>Ce travail m’a permis d’illustrer concrètement l’impact de la donnée dans la prise de décision et la compréhension des dynamiques territoriales.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image principale illustrant les bornes ou la dataviz
+            'image' => 'https://i.imgur.com/JGbCFEu.png', // Image principale illustrant les bornes ou la dataviz
             'image_illustration' => 'https://i.imgur.com/vc5OeSh.jpeg',
             'image_illustration2' => 'https://i.imgur.com/DH7Nvri.jpeg',// Graphique ou carte de datavisualisation
             'project' => [
@@ -260,7 +260,7 @@ HTML,
 
 <p>Cette démarche m’a permis d’appliquer les principes du design d’expérience utilisateur et de garantir une expérience fluide et optimale pour les utilisateurs de la plateforme.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Exemple d'image illustrant le design ou les wireframes
+            'image' => 'https://i.imgur.com/S1BjO8j.png', // Exemple d'image illustrant le design ou les wireframes
             'image_illustration' => 'https://i.imgur.com/EGOUpWd.jpeg', // Illustration de la plateforme
             'image_illustration2' => 'https://i.imgur.com/SiSxZo5.jpeg', // Exemple de wireframe ou prototype
             'project' => [
@@ -287,7 +287,7 @@ HTML,
 <p>Cette recherche m’a permis de dresser un état des lieux complet du marché et de comprendre les dynamiques actuelles du secteur. J'ai constitué un <strong>dossier de recherches</strong> pour rassembler toutes les informations pertinentes et servir de base pour les étapes suivantes de la conception.</p>
 <p><strong>Dossier Recherches</strong>: Benchmark, tendances et analyse détaillée.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image d'illustration liée à la recherche ou au secteur
+            'image' => 'https://i.imgur.com/S1BjO8j.png', // Image d'illustration liée à la recherche ou au secteur
             'image_illustration' => 'https://i.imgur.com/qOIfIZ3.png',
             'image_illustration2' => '',// Graphique ou visuel lié à l’analyse
             'project' => [
@@ -314,7 +314,7 @@ HTML,
 <p>Ce travail m'a permis de tester l'interface avec des utilisateurs ciblés, affinant progressivement le design pour qu'il réponde parfaitement à leurs attentes tout en respectant l'identité de la marque.</p>
 <p><strong>Figma</strong> a été l'outil central utilisé pour cette conception visuelle.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image d'illustration de la maquette Figma ou des wireframes
+            'image' => 'https://i.imgur.com/S1BjO8j.png', // Image d'illustration de la maquette Figma ou des wireframes
             'image_illustration' => 'https://i.imgur.com/ndb2MQh.png',
             'image_illustration2' => '',
             'project' => [
@@ -342,7 +342,7 @@ HTML,
 <p>Ces tests m'ont permis de recueillir des données essentielles pour optimiser l'interface du site, en vue de répondre aux besoins réels des utilisateurs tout en leur garantissant une expérience d'achat fluide et sans friction.</p>
 <p><strong>Figma</strong> a été utilisé pour simuler les interactions durant les tests utilisateurs.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image d'illustration de tests utilisateurs ou d'un prototype interactif
+            'image' => 'https://i.imgur.com/S1BjO8j.png', // Image d'illustration de tests utilisateurs ou d'un prototype interactif
             'image_illustration' => 'https://i.imgur.com/MfFOr9g.png', // Capture d'écran d'un test utilisateur
             'image_illustration2' => '',
             'project' => [
@@ -370,7 +370,7 @@ HTML,
 <p>L'analyse de ces métriques permettra de dresser un bilan complet de l'expérience utilisateur et d'identifier à la fois les points forts et les axes d'amélioration. Ces mesures garantiront une optimisation continue de l'expérience utilisateur, en s'appuyant sur des données précises et objectives.</p>
 <p><strong>Mesures</strong> basées sur des outils d'analyse web comme Google Analytics et des enquêtes de satisfaction utilisateurs.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image représentant des indicateurs ou des graphiques de performance
+            'image' => 'https://i.imgur.com/S1BjO8j.png', // Image représentant des indicateurs ou des graphiques de performance
             'image_illustration' => 'https://i.imgur.com/gw2S4V8.png', // Capture d'écran de l'outil de mesure ou de graphique des résultats
             'image_illustration2' => '',
             'project' => [
@@ -398,7 +398,7 @@ HTML,
 
 <p>Cette analyse a permis d'optimiser l'interface de la plateforme en prenant en compte les retours et en améliorant les points de friction identifiés, dans le but d'offrir une meilleure expérience utilisateur.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image représentant une carte d'empathie ou un graphique d'expérience utilisateur
+            'image' => 'https://i.imgur.com/qnAKvpt.png', // Image représentant une carte d'empathie ou un graphique d'expérience utilisateur
             'image_illustration' => 'https://i.imgur.com/0R4tMmu.jpeg', // Illustration d'un point de contact ou d'un graphique UX
             'image_illustration2' => '',
             'project' => [
@@ -426,7 +426,7 @@ HTML,
 
 <p>Cette cartographie a permis d’identifier les zones de friction de l'application et de proposer des ajustements pour améliorer l’expérience globale des utilisateurs.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image représentant la cartographie de l’expérience utilisateur ou un exemple de test utilisateur
+            'image' => 'https://i.imgur.com/qnAKvpt.png', // Image représentant la cartographie de l’expérience utilisateur ou un exemple de test utilisateur
             'image_illustration' => 'https://i.imgur.com/EVl7Awe.png', // Illustration d'un parcours utilisateur ou carte d'empathie
             'image_illustration2' => '',
             'project' => [
@@ -454,7 +454,7 @@ HTML,
 
 <p>Ce projet m'a permis de développer des compétences en gestion de projet, ainsi qu'en conception de services orientés utilisateurs, tout en travaillant sur un environnement technique comme WordPress.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image représentant l'interface de réservation ou le projet
+            'image' => 'https://i.imgur.com/FKixaMK.png', // Image représentant l'interface de réservation ou le projet
             'image_illustration' => 'https://i.imgur.com/fuyPiok.jpeg', // Illustration des fonctionnalités du service
             'image_illustration2' => 'https://i.imgur.com/DbZdyAE.jpeg',
             'project' => [
@@ -481,7 +481,7 @@ HTML,
 
 <p>Ce projet m'a permis de développer des compétences en analyse de données, en construction de questionnaires et en définition de propositions de valeur, tout en prenant en compte les attentes des utilisateurs pour garantir une expérience optimale.</p>
 HTML,
-            'image' => 'https://i.imgur.com/dOUL3gb.png', // Image représentant l'application Komoot ou l'interface utilisateur
+            'image' => 'https://i.imgur.com/Rg8AZGR.png', // Image représentant l'application Komoot ou l'interface utilisateur
             'image_illustration' => 'https://i.imgur.com/j3Dw4qb.jpeg', // Illustration des résultats du questionnaire ou analyse des commentaires
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -491,51 +491,211 @@ HTML,
             'project_link' => 'https://docs.google.com/document/d/1E2wF7nYvYahvukuIpeLGLmgbvs42zKbCnBfWlzQ-62o/edit?usp=sharing', // Lien vers le projet ou la présentation, si disponible
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC12.03',
+            'name' => 'Proposer une recommandation marketing (cibles, objectifs, points de contact)',
+            'category' => 'Concevoir', // ✅ Catégorie "Concevoir"
+            'year' => '1ère année',
+            'description' => <<<HTML
+<p>Dans le cadre de l'<strong>AC12.03</strong>, nous avons travaillé en équipe sur le projet <strong>SAE102</strong> pour proposer une recommandation marketing pour l'organisation <em>Réclame-Action</em>.</p>
+
+<ul>
+    <li>🔹 <strong>Identification des cibles</strong> : Notre équipe a identifié plusieurs segments de marché potentiels pour mieux comprendre les publics à atteindre.</li>
+    <li>🔹 <strong>Analyses détaillées</strong> : Réalisation d'analyses par tranches d'âge et par types de comportements de partage pour ajuster la stratégie de communication.</li>
+    <li>🔹 <strong>Moyens de communication adaptés</strong> : Détermination des canaux de communication les plus efficaces pour chaque cible (réseaux sociaux, événements, emailing, etc.).</li>
+</ul>
+
+<p>Ce travail nous a permis de formuler des recommandations précises en matière de marketing, en alignant les objectifs, les cibles et les points de contact pour maximiser l'impact des campagnes de communication.</p>
+HTML,
+            'image' => 'https://i.imgur.com/TB05dvx.png', // Image symbolisant le marketing ou la communication ciblée
+            'image_illustration' => 'https://i.imgur.com/DOXx0tr.jpeg',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',// Illustration d'une segmentation de cible ou d'une stratégie marketing
+            'project' => [
+                'title' => 'Recommandation marketing pour Réclame-Action',
+                'description' => 'Analyse des cibles, définition des objectifs et des points de contact dans le cadre du projet SAE102.',
+            ],
+            'project_link' => 'https://docs.google.com/document/d/1sowbKL_Y3CcP99INcWoEMoEAiGq8axkLq5RR4i0kcaE/edit?usp=sharing', // (si tu veux mettre ton lien Google Slides ici plus tard)
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC12.04',
+            'name' => 'Proposer une stratégie de communication',
+            'category' => 'Concevoir', // ✅ Catégorie "Concevoir"
+            'year' => '1ère année',
+            'description' => <<<HTML
+<p>Dans le cadre de l'<strong>AC12.04</strong>, nous avons travaillé sur le projet <strong>SAE 102</strong> en endossant le rôle de <em>Réclame-Action</em> pour sensibiliser le public via une campagne de communication numérique.</p>
+
+<ul>
+    <li>🔹 <strong>Analyse du public cible</strong> : Étude approfondie des audiences pour définir le contenu pertinent à diffuser.</li>
+    <li>🔹 <strong>Définition des canaux de communication</strong> : Sélection des supports et médias les plus efficaces pour toucher le public.</li>
+    <li>🔹 <strong>Création de contenus</strong> : Élaboration de publications engageantes et adaptées aux attentes des utilisateurs.</li>
+    <li>🔹 <strong>Travail rhétorique</strong> : Réalisation d'un portrait persuasif dans le cadre de la ressource <strong>R206</strong>, en fusionnant deux réalités autour d'un thème commun, à l'aide de techniques de communication persuasive.</li>
+</ul>
+
+<p>Cette expérience m'a permis de maîtriser la mise en place d'une stratégie de communication ciblée, créative et orientée utilisateur.</p>
+HTML,
+            'image' => 'https://i.imgur.com/1wwgvIU.png', // Image illustrant la communication numérique ou la sensibilisation
+            'image_illustration' => 'https://i.imgur.com/CYRXOiK.jpeg', // Illustration stratégie de communication / contenu numérique
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Campagne de sensibilisation pour Réclame-Action',
+                'description' => 'Développement d’une stratégie de communication numérique dans le cadre du projet SAE 102.',
+            ],
+            'project_link' => 'https://docs.google.com/document/d/1sowbKL_Y3CcP99INcWoEMoEAiGq8axkLq5RR4i0kcaE/edit?usp=sharing', // (à ajouter si lien projet)
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC22.01',
+            'name' => 'Co-concevoir un produit ou un service (proposition de valeur, fonctionnalités...)',
+            'category' => 'Concevoir', // ✅ Catégorie "Concevoir"
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de l'<strong>AC22.01</strong>, je me suis investi dans la <strong>co-conception d'un produit ou d'un service</strong>, en collaborant avec différentes parties prenantes pour élaborer la proposition de valeur et définir les fonctionnalités essentielles.</p>
+
+<ul>
+    <li>🔹 <strong>Proposition de valeur</strong> : Construction d'une offre répondant aux attentes des utilisateurs et aux besoins identifiés.</li>
+    <li>🔹 <strong>Définition des fonctionnalités</strong> : Détermination précise des services et fonctionnalités pour maximiser l'usage et la satisfaction client.</li>
+    <li>🔹 <strong>Travail collaboratif</strong> : Co-création en équipe en impliquant utilisateurs, designers et développeurs dans le processus.</li>
+    <li>🔹 <strong>Application en SAE 301</strong> : Projet de création d’un produit ou service innovant, mobilisant notamment les connaissances issues de la ressource <strong>Culture numérique (R304)</strong>.</li>
+</ul>
+
+<p>Cette démarche m’a permis de comprendre l'importance de la collaboration interdisciplinaire pour concevoir des produits centrés sur l'utilisateur.</p>
+HTML,
+            'image' => 'https://i.imgur.com/RTeAmLa.png', // Image de collaboration ou brainstorming UX
+            'image_illustration' => 'https://i.imgur.com/4CV2czW.jpeg', // Illustration d'une co-conception / atelier de design
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Co-conception d’un produit innovant',
+                'description' => 'Développement collaboratif d’un produit ou service innovant dans le cadre de la SAE 301.',
+            ],
+            'project_link' => '', // (à ajouter si lien projet disponible)
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC22.01.S4',
+            'name' => 'Co-concevoir un produit ou un service (proposition de valeur, fonctionnalités...)',
+            'category' => 'Concevoir',
+            'year' => '2ème année - S4',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>R403</strong>, j’ai participé à la <strong>co-conception d’une application</strong> facilitant le reconditionnement de produits cassés.</p>
+
+<ul>
+    <li>🔹 <strong>Compréhension des besoins</strong> : Enquêtes utilisateurs, cartographies d’expérience, et création de carte d’empathie pour identifier attentes et motivations.</li>
+    <li>🔹 <strong>Tests utilisateurs</strong> : Définition d’un protocole de test pour évaluer l’ergonomie et la fluidité de l’interface.</li>
+    <li>🔹 <strong>Conception UI/UX</strong> : Réalisation d’une charte graphique, définition des composants, et design de l’interface via Figma.</li>
+    <li>🔹 <strong>Prototype interactif</strong> : Développement d’un prototype fonctionnel et testable par les utilisateurs pour valider le concept.</li>
+</ul>
+
+<p>Ce travail m’a permis d’allier méthodologie UX, design collaboratif et validation itérative autour d’un projet à fort impact utilisateur.</p>
+HTML,
+            'image' => 'https://i.imgur.com/RTeAmLa.png', // Image fictive de l’appli ou moodboard de composants
+            'image_illustration' => 'https://i.imgur.com/H7WB9gK.jpeg', // Maquettes ou wireframes sur Figma
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Appli de reconditionnement de produits',
+                'description' => 'Projet UX mené dans le cadre de R403, visant à concevoir une application facilitant le reconditionnement d’objets cassés.',
+            ],
+            'project_link' => 'https://www.figma.com/design/3W1xMg3Hddg80HFg5jT9SO/WR403?node-id=11-31&t=KK3EtaO0WmJXxDmk-1', // Lien Figma si tu veux le rajouter
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
-        ],[
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC22.02',
+            'name' => 'Produire une recommandation ergonomique à partir des tests utilisateurs (sur système fonctionnel, prototype ou maquette interactive)',
+            'category' => 'Concevoir',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l’AC2202</strong>, j’ai développé la capacité à <strong>formuler des recommandations ergonomiques</strong> à partir de tests utilisateurs réalisés sur des systèmes fonctionnels, prototypes ou maquettes interactives.</p>
+
+<ul>
+    <li>🔹 <strong>Analyse UX</strong> : Identification des points d’amélioration à partir d’observations et de retours utilisateurs sur une maquette interactive développée en SAE 301.</li>
+    <li>🔹 <strong>Tests utilisateurs</strong> : Élaboration d’un protocole de test précis (tâches, scénarios, grille d’analyse) pour évaluer l’ergonomie et la fluidité de l’expérience.</li>
+    <li>🔹 <strong>Design d’expérience (R303)</strong> : Mobilisation des ressources pour transformer les insights en <strong>recommandations concrètes</strong> d’optimisation (navigation, accessibilité, lisibilité).</li>
+    <li>🔹 <strong>Itérations</strong> : Intégration des retours et ajustements successifs dans une logique d’amélioration continue.</li>
+</ul>
+
+<p>Ce processus a renforcé ma capacité à concevoir des <strong>solutions centrées utilisateur</strong>, améliorant l’ergonomie de manière tangible grâce à une approche fondée sur les données.</p>
+HTML,
+            'image' => 'https://i.imgur.com/sdzXtzF.png', // Image illustrant une session de test utilisateur ou prototype
+            'image_illustration' => 'https://i.imgur.com/JkG6U3d.png', // Capture d’une maquette ou d’un rapport UX
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Recommandations ergonomiques - SAE 301',
+                'description' => 'Évaluation UX et formulation de recommandations pour améliorer l’ergonomie d’un prototype de service numérique.',
+            ],
+            'project_link' => '', // Lien vers le projet ou les tests si dispo
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC22.03',
+            'name' => 'Co-construire une recommandation stratégique (en structurant un plan d’action)',
+            'category' => 'Concevoir',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l'AC2203</strong>, j'ai développé la capacité à <strong>co-construire des recommandations stratégiques</strong> en structurant des plans d'action concrets, adaptés aux objectifs de communication plurimédias.</p>
+
+<ul>
+    <li>🔹 <strong>SAE 302</strong> : Conception et production d'une <strong>publicité innovante et multilingue</strong>, avec une approche stratégique centrée sur les écosystèmes numériques.</li>
+    <li>🔹 <strong>Note d’intention</strong> : Définition des objectifs, ciblage des publics, et planification des étapes de création.</li>
+    <li>🔹 <strong>Storyboard</strong> : Élaboration visuelle et narrative pour garantir la cohérence entre les messages et les médias utilisés.</li>
+    <li>🔹 <strong>Adaptation culturelle</strong> : Développement d’une approche multilingue et multiculturelle pour toucher efficacement des audiences internationales.</li>
+</ul>
+
+<p>Ce projet a renforcé ma capacité à articuler <strong>stratégie</strong> et <strong>créativité</strong> pour construire des recommandations adaptées aux réalités du marché et aux objectifs de communication numérique.</p>
+HTML,
+            'image' => 'https://i.imgur.com/kJ9pCET.png', // Illustration d'un storyboard ou tournage
+            'image_illustration' => 'https://i.imgur.com/u7kYIQ3.png', // Extrait de la publicité ou de la note d’intention
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Création d’une publicité multilingue - SAE 302',
+                'description' => 'Conception stratégique et production d’une publicité adaptée à des publics francophones et internationaux dans un projet plurimédia.',
+            ],
+            'project_link' => 'https://drive.google.com/file/d/1ldJCt_djLLAcBTmUwnP4mo3VLjvL0wsD/view?usp=sharing', // Lien vers la note d’intention ou la publicité si disponible
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC22.04',
+            'name' => 'Optimiser le référencement d’un site web, d’un produit ou d’un service',
+            'category' => 'Concevoir',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l'AC2204</strong>, j’ai appris à <strong>optimiser le référencement</strong> de contenus numériques afin d'améliorer leur <strong>visibilité</strong> sur les moteurs de recherche et d'assurer une meilleure <strong>accessibilité</strong> au public cible.</p>
+
+<ul>
+    <li>🔹 <strong>SAE 302</strong> : Application concrète des compétences en référencement (R306) dans le cadre de la création d’un projet plurimédia professionnel.</li>
+    <li>🔹 <strong>Stratégie SEO</strong> : Identification des mots-clés, structuration des contenus, optimisation des métadonnées et balisages.</li>
+    <li>🔹 <strong>Contenus associés</strong> : Production d’une <em>note d’intention</em>, d’un <em>storyboard</em> et d’une <em>publicité</em>, renforcés par une <em>modélisation 3D</em> d’un parfum.</li>
+    <li>🔹 <strong>Impact global</strong> : Intégration du référencement comme levier stratégique pour renforcer la portée du projet auprès des audiences visées.</li>
+</ul>
+
+<p>Cette expérience m’a permis de comprendre l’importance du SEO dans un projet de communication et de maîtriser des outils pour rendre un contenu <strong>pertinent, visible et performant</strong>.</p>
+HTML,
+            'image' => 'https://i.imgur.com/bQDkK5a.png', // Image d'interface web ou SEO
+            'image_illustration' => 'https://i.imgur.com/wB9Tj8V.png', // Note d'intention ou extrait d’un projet avec référencement
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Optimisation SEO – SAE 302',
+                'description' => 'Optimisation du référencement naturel d’un projet plurimédia incluant vidéo, 3D, et production éditoriale, autour d’un produit parfum.',
+            ],
+            'project_link' => 'https://drive.google.com/file/d/1ldJCt_djLLAcBTmUwnP4mo3VLjvL0wsD/view?usp=sharing', // Ajouter lien si dispo
+        ],
+        [
+            'code' => 'AC22.05',
+            'name' => 'Mettre en place une présence sur les réseaux sociaux',
+            'category' => 'Concevoir',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l'AC2205</strong>, j’ai acquis la compétence de <strong>développer une stratégie de présence sur les réseaux sociaux</strong>, en tenant compte des spécificités de chaque plateforme, des audiences visées et des objectifs de communication.</p>
+
+<ul>
+    <li>🔹 <strong>SAE 302</strong> : Mise en œuvre de cette compétence à travers la création d’un projet complet incluant <em>publicité, storyboard, note d’intention</em> et <em>modélisation 3D</em> d’un parfum.</li>
+    <li>🔹 <strong>Stratégie de diffusion</strong> : Élaboration d’un plan de publication, choix des formats adaptés (vidéo, visuel 3D, carrousel...), et identification des canaux sociaux les plus pertinents.</li>
+    <li>🔹 <strong>Référencement & visibilité</strong> : Coordination étroite avec les actions SEO (R306) pour renforcer la portée et l’engagement sur les réseaux.</li>
+    <li>🔹 <strong>Communication ciblée</strong> : Création de contenus engageants et visuellement cohérents avec l’identité de marque du produit parfumé.</li>
+</ul>
+
+<p>Cette expérience m’a permis de comprendre l’importance des réseaux sociaux dans une stratégie de communication globale, et de mettre en pratique les outils nécessaires pour <strong>planifier, créer et diffuser efficacement</strong> du contenu.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Extrait d'une publication ou maquette pour réseaux
+            'image_illustration' => 'https://i.imgur.com/4bKxFEq.jpeg', // Mockup ou visuel 3D utilisé sur les réseaux
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Présence sociale – SAE 302',
+                'description' => 'Déploiement d’une stratégie de présence sur les réseaux sociaux autour d’une campagne de communication visuelle et sensorielle pour un parfum.',
+            ],
+            'project_link' => 'https://drive.google.com/file/d/1ldJCt_djLLAcBTmUwnP4mo3VLjvL0wsD/view?usp=sharing', // Ajouter lien si dispo
         ],
         [
             'code' => 'AC1001',
