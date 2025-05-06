@@ -698,35 +698,293 @@ HTML,
             'project_link' => 'https://drive.google.com/file/d/1ldJCt_djLLAcBTmUwnP4mo3VLjvL0wsD/view?usp=sharing', // Ajouter lien si dispo
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC13.01',
+            'name' => 'Écrire pour les médias numériques',
+            'category' => 'Exprimer',
+            'year' => '1ère année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l’AC1301</strong>, j’ai développé la compétence d’<strong>écriture adaptée aux médias numériques</strong>, en explorant différents formats narratifs et dispositifs interactifs.</p>
+
+<ul>
+    <li>🔹 <strong>R107</strong> : Réalisation d’un dossier de production comprenant un <em>pitch</em>, un <em>synopsis</em> et un <em>scénario</em> narratif structuré.</li>
+    <li>🔹 <strong>R207</strong> : Conception d’un <strong>récit interactif</strong> à l’aide de l’outil <em>Twine</em>, intégrant des <em>choix narratifs</em> et une <em>ambiance sonore immersive</em>.</li>
+    <li>🔹 <strong>Écriture interactive</strong> : Création d’histoires non-linéaires permettant une expérience utilisateur personnalisée et engageante.</li>
+    <li>🔹 <strong>Enrichissement multimédia</strong> : Utilisation de bruitages et d’éléments audiovisuels pour renforcer l’immersion dans le récit.</li>
+</ul>
+
+<p>Ces expériences ont renforcé mes compétences en <strong>écriture scénaristique, interactive et multimédia</strong>, essentielles pour produire des contenus numériques impactants et adaptés aux usages contemporains.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Capture d'écran du récit Twine ou du scénario
+            'image_illustration' => 'https://i.imgur.com/Yk5znR7.jpeg', // Visuel de bruitages ou ambiance sonore
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Récit interactif sur Twine',
+                'description' => 'Création d’un scénario non-linéaire interactif avec éléments sonores immersifs dans le cadre de R207.',
+            ],
+            'project_link' => '', // Lien vers l’histoire ou le Twine exporté si disponible
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC13.02',
+            'name' => 'Produire des pistes graphiques et des planches d’inspiration',
+            'category' => 'Exprimer',
+            'year' => '1ère année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l’AC1302</strong>, j’ai développé des compétences en <strong>exploration graphique</strong> et en <strong>construction visuelle</strong>, à travers la création de pistes d'inspiration et l’apprentissage de techniques de représentation.</p>
+
+<ul>
+    <li>🔹 <strong>R109</strong> : Conception de l’univers graphique d’un <em>bar punk</em> à partir d’une <strong>carte mentale</strong>, d’un <strong>manifeste visuel</strong> et d’un <strong>moodboard</strong>.</li>
+    <li>🔹 <strong>R2109</strong> : Apprentissage de la <strong>perspective conique</strong> dans Illustrator pour modéliser une <em>chambre 3D réaliste</em>.</li>
+    <li>🔹 <strong>Composition visuelle</strong> : Fusion des compétences graphiques et techniques pour proposer un environnement immersif et expressif.</li>
+</ul>
+
+<p>Ces projets m’ont permis de renforcer ma capacité à produire des pistes visuelles cohérentes, à explorer des univers graphiques variés, et à structurer l’imaginaire autour d’un projet de design.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Aucune image disponible
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Explorations graphiques – Univers d’un bar punk & chambre en perspective',
+                'description' => 'Conception d’un univers graphique et apprentissage de la perspective conique pour modélisation en 3D sous Illustrator.',
+            ],
+            'project_link' => '', // Aucun lien fourni
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC13.03',
+            'name' => 'Créer, composer et retoucher des visuels',
+            'category' => 'Exprimer',
+            'year' => '1ère année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l’AC1303</strong>, j’ai développé des compétences en <strong>création graphique</strong>, <strong>composition visuelle</strong> et <strong>retouche d’images</strong>, en utilisant des outils professionnels du design numérique.</p>
+
+<ul>
+    <li>🔹 <strong>Maîtrise des logiciels</strong> : Utilisation avancée de <em>Photoshop</em> pour la retouche photo et <em>Illustrator</em> pour la création vectorielle.</li>
+    <li>🔹 <strong>Création graphique</strong> : Réalisation de visuels percutants, alliant technique et créativité, adaptés à divers contextes de communication visuelle.</li>
+    <li>🔹 <strong>Perspectives créatives</strong> : Développement d’une sensibilité graphique à travers la composition, la couleur et la typographie.</li>
+</ul>
+
+<p>Ces expériences ont renforcé ma maîtrise des outils de création graphique et m’ont permis d’explorer de nouvelles approches visuelles pour enrichir mes projets personnels et professionnels.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Aucune image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Création et retouche graphique',
+                'description' => 'Création de visuels variés à l’aide de Photoshop et Illustrator, explorant retouche, composition et illustration.',
+            ],
+            'project_link' => '', // Aucun lien précisé
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC13.04',
+            'name' => 'Tourner et monter une vidéo (scénario, captation image et son...)',
+            'category' => 'Exprimer',
+            'year' => '1ère année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l’AC1304</strong>, j’ai acquis une polyvalence dans la <strong>création audiovisuelle</strong>, de la conception au montage, en passant par la captation image et son.</p>
+
+<ul>
+    <li>🎬 <strong>SAE104</strong> : Rôle d’acteur et de <em>chef réalisateur</em> pour une interview, avec coordination de l’équipe et supervision de la captation sonore.</li>
+    <li>🎥 <strong>Ressource R210</strong> : Direction de tournage et mise en œuvre d’un projet vidéo dans un contexte professionnel simulé.</li>
+    <li>🔊 <strong>Compétences développées</strong> : Organisation de production, captation image et son, direction d’équipe, postproduction et montage.</li>
+</ul>
+
+<p>Ces projets ont renforcé mes compétences en gestion de projet audiovisuel tout en nourrissant ma passion pour l’image et le récit filmé.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Aucune image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Interview & Tournage vidéo',
+                'description' => 'Participation en tant qu’acteur et chef réalisateur sur plusieurs projets audiovisuels dans le cadre des SAE104 et R210.',
+            ],
+            'project_link' => '', // Aucun lien fourni
         ],
         [
-            'code' => 'AC1001',
-            'name' => 'Compréhension du Web',
-            'description' => 'Apprendre les bases des technologies web, HTML/CSS, HTTP, etc.',
-            'image' => 'https://i.imgur.com/dOUL3gb.png',
+            'code' => 'AC13.05',
+            'name' => 'Designer une interface web (wireframes, UI)',
+            'category' => 'Exprimer',
+            'year' => '1ère année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l’AC1305</strong>, j’ai conçu une <strong>interface web</strong> pour un <strong>site de covoiturage</strong> dans le projet <strong>SAE 202</strong>.</p>
+
+<ul>
+    <li>🧩 <strong>Définition d’une grille typographique</strong> claire et structurée.</li>
+    <li>🎨 <strong>Choix d’une typographie</strong> cohérente avec l’identité du service.</li>
+    <li>🖼️ <strong>Création d’éléments UI communs</strong> dans une logique de design system.</li>
+    <li>🤝 Travail <strong>collaboratif</strong> et méthodique au sein de l’équipe projet.</li>
+</ul>
+
+<p>Ce projet m’a permis d’expérimenter la conception d’interface centrée utilisateur, de la wireframe jusqu’à l’esthétique finale, en assurant une cohérence visuelle et fonctionnelle.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Aucune image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Interface Web – Covoiturage',
+                'description' => 'Conception d’une interface utilisateur complète pour un service de covoiturage dans le cadre de la SAE 202.',
+            ],
+            'project_link' => '', // Aucun lien fourni
         ],
+        [
+            'code' => 'AC13.06',
+            'name' => 'Optimiser les médias en fonction de leurs usages et supports de diffusion',
+            'category' => 'Exprimer',
+            'year' => '1ère année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l’AC1306</strong>, j’ai optimisé des créations graphiques en fonction de leur <strong>support de diffusion</strong> à travers plusieurs projets :</p>
+
+<ul>
+    <li>🖋️ <strong>SAE 103</strong> : création d’un <strong>logo original pour l’Atelier Tattoo Shop</strong>, avec ajout d’un style tatouage et vectorisation typographique.</li>
+    <li>🌿 <strong>SAE 202</strong> : conception d’un <strong>logo pour un site de covoiturage écologique</strong>, en cohérence avec l’identité visuelle (choix des couleurs, nom, design).</li>
+</ul>
+
+<p>Ces projets m'ont permis de comprendre comment adapter mes visuels aux différents <strong>supports numériques</strong> et d’affiner mes compétences en <strong>design graphique</strong> appliqué.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Aucune image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Logos – Tattoo Shop & Covoiturage',
+                'description' => 'Conception et optimisation de logos pour différents projets dans le cadre des SAE 103 et 202.',
+            ],
+            'project_link' => '', // Aucun lien fourni
+        ],
+        [
+            'code' => 'AC23.01',
+            'name' => 'Produire un écrit journalistique sourcé et documenté',
+            'category' => 'Exprimer',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de <strong>l’AC2301</strong>, j’ai acquis les compétences nécessaires à la <strong>rédaction journalistique</strong> fondée sur des sources fiables et une documentation rigoureuse.</p>
+
+<p>Cette compétence a été mobilisée dans <strong>la SAE 302</strong>, à travers la création d’un <strong>site web journalistique</strong> traitant du <strong>cyberharcèlement</strong>. Le projet intègre :</p>
+
+<ul>
+    <li>📚 Une <strong>démarche d’investigation</strong> et de vérification des sources,</li>
+    <li>🗣️ L'utilisation des compétences en anglais (<em>R301 et R302</em>),</li>
+    <li>🖥️ Des savoir-faire en <strong>narration et écriture multimédia</strong> (R306).</li>
+</ul>
+
+<p>Ce projet m’a permis de combiner rigueur journalistique et narration numérique pour proposer un contenu <strong>crédible, engageant et informatif</strong>.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Site Web sur le Cyberharcèlement',
+                'description' => 'Création d’un site web journalistique autour du thème du cyberharcèlement, en intégrant des pratiques rédactionnelles sourcées et multimédias.',
+            ],
+            'project_link' => '', // Aucun lien fourni
+        ],
+        [
+            'code' => 'AC23.02',
+            'name' => 'Définir une iconographie (illustrations, photographies, vidéos)',
+            'category' => 'Exprimer',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de l’<strong>AC23.02</strong>, j’ai développé la compétence de <strong>définir une iconographie cohérente</strong> et pertinente pour différents supports multimédias, incluant illustrations, photographies et vidéos.</p>
+
+<p>Cette compétence repose sur une <strong>culture artistique approfondie</strong> et a été mise en pratique dans divers <strong>projets professionnels</strong>, notamment à travers :</p>
+
+<ul>
+    <li>🎥 La création de <strong>publicités</strong>,</li>
+    <li>🖼️ La réalisation de <strong>storyboards</strong>,</li>
+    <li>📸 La sélection d’éléments visuels adaptés aux messages,</li>
+    <li>🧊 La <strong>modélisation 3D</strong> de produits comme un parfum, dans le cadre de la SAE 302.</li>
+</ul>
+
+<p>Ces expériences m'ont permis d'assurer une <strong>cohérence visuelle</strong> et esthétique au service d’une stratégie de communication efficace.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Publicité & Iconographie – SAE 302',
+                'description' => 'Création d’une publicité multilingue, d’un storyboard et d’une modélisation 3D, avec une attention particulière à la cohérence de l’iconographie visuelle.',
+            ],
+            'project_link' => '', // Aucun lien fourni
+        ],
+        [
+            'code' => 'AC23.02.S4',
+            'name' => 'Définir une iconographie (illustrations, photographies, vidéos) S4',
+            'category' => 'Exprimer',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de l’<strong>AC23.02</strong>, j’ai développé la compétence de <strong>définir une iconographie cohérente</strong> et pertinente à travers illustrations, photographies et vidéos, dans des projets interactifs ou multimédias.</p>
+
+<p>Cette compétence s’est concrétisée notamment dans :</p>
+
+<ul>
+    <li>📺 <strong>SAE 302</strong> : Création d’une publicité multilingue et modélisation 3D d’un parfum, avec attention à la cohérence visuelle et au style graphique,</li>
+    <li>👥 <strong>SAE 402</strong> : Conception d’un <strong>dispositif interactif sur le thème du double maléfique</strong>, en développant une expérience immersive mêlant <strong>visuels intrigants</strong>, sound design et développement web (VueJS, Canva).</li>
+</ul>
+
+<p>Grâce à ces expériences, j’ai affiné ma capacité à créer une <strong>iconographie esthétique, pertinente et engageante</strong> pour enrichir l’expérience utilisateur et servir efficacement le propos narratif ou marketing.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 302 & SAE 402 – Publicité & Dispositif interactif',
+                'description' => 'Mise en œuvre d’une iconographie forte dans deux projets complémentaires : une publicité professionnelle avec modélisation 3D, et une application interactive autour du double maléfique.',
+            ],
+            'project_link' => '', // Aucun lien explicite
+        ],
+        [
+            'code' => 'AC23.03',
+            'name' => 'Créer et décliner une identité visuelle (charte graphique)',
+            'category' => 'Exprimer',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de l’<strong>AC23.03</strong>, j’ai développé mes compétences en <strong>création et déclinaison d’une identité visuelle</strong> complète, à travers la conception de <strong>chartes graphiques cohérentes</strong>.</p>
+
+<p>Ce savoir-faire a été appliqué dans le projet <strong>SAE 302</strong>, où j’ai participé à la <strong>création d’une publicité professionnelle</strong> accompagnée :</p>
+
+<ul>
+    <li>d’une <strong>charte graphique</strong> définissant les couleurs, typographies et éléments visuels principaux,</li>
+    <li>d’un <strong>storyboard</strong> et d’une <strong>note d’intention</strong>,</li>
+    <li>et d’une <strong>modélisation 3D</strong> d’un produit, alignée avec l’univers visuel du projet.</li>
+</ul>
+
+<p>Grâce à ma connaissance de la culture artistique acquise en <strong>R310</strong>, j’ai veillé à produire une identité visuelle <strong>impactante, cohérente et adaptée</strong> au public ciblé.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 302 – Publicité & identité visuelle',
+                'description' => 'Création d’une charte graphique pour une campagne plurimédia intégrant publicité, modélisation 3D et storyboard.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC23.04',
+            'name' => 'Imaginer, écrire et scénariser en vue d’une communication multimédia ou transmédia',
+            'category' => 'Exprimer',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de l’<strong>AC23.04</strong>, j’ai renforcé mes compétences en <strong>imagination, écriture et scénarisation</strong> pour des projets de communication <strong>multimédia et transmédia</strong>.</p>
+
+<p>Ce travail a été concrétisé à travers la <strong>SAE 302</strong>, où j’ai participé à un projet professionnel englobant :</p>
+
+<ul>
+    <li>la <strong>création d’une publicité</strong> immersive et originale,</li>
+    <li>l’élaboration d’un <strong>storyboard</strong> détaillé,</li>
+    <li>la rédaction d’une <strong>note d’intention</strong> pour guider la direction artistique,</li>
+    <li>et la <strong>modélisation 3D</strong> d’un produit intégré à notre narration visuelle.</li>
+</ul>
+
+<p>Grâce à mes connaissances acquises en <strong>narration (R306)</strong> et en <strong>production audiovisuelle (R311)</strong>, j’ai contribué à une communication cohérente et impactante sur l’ensemble des supports visés.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 302 – Publicité & communication transmédia',
+                'description' => 'Projet plurimédia intégrant narration, vidéo, modélisation 3D et scénarisation transmédia autour d’un produit fictif.',
+            ],
+            'project_link' => '',
+        ],
+
     ];
 
     public function getAllSkills(): array
