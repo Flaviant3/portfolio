@@ -984,7 +984,174 @@ HTML,
             ],
             'project_link' => '',
         ],
+        [
+            'code' => 'AC23.04.S4',
+            'name' => 'Imaginer, écrire et scénariser en vue d’une communication multimédia ou transmédia',
+            'category' => 'Exprimer',
+            'year' => '2ème année – Semestre 4',
+            'description' => <<<HTML
+<p>Dans le cadre de la <strong>SAE 402</strong>, j’ai mis en œuvre mes compétences en <strong>compréhension des écosystèmes numériques</strong> et en <strong>conception stratégique</strong> pour imaginer, écrire et scénariser une communication multimédia ou transmédia sur le thème du <em>double maléfique</em>.</p>
 
+<p>J’ai mené une <strong>analyse approfondie du contexte</strong> et élaboré un scénario original, en m’adaptant aux <strong>contraintes narratives et techniques</strong> de plusieurs supports de diffusion.</p>
+
+<p>Cette approche m’a permis de créer une expérience <strong>immersive, pertinente et cohérente</strong>, où chaque contenu s’articule autour d’une narration forte et engageante à travers différents canaux.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 402 – Dispositif interactif "Double Maléfique"',
+                'description' => 'Projet transmédia exploitant narration, développement interactif, sound design et visuels intrigants pour une expérience immersive autour de la thématique du double.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC23.05',
+            'name' => 'Réaliser, composer et produire pour une communication plurimédia',
+            'category' => 'Exprimer',
+            'year' => '2ème année – Semestre 4',
+            'description' => <<<HTML
+<p>Dans le cadre de l’<strong>AC2305</strong>, j’ai développé des compétences en <strong>réalisation, composition et production</strong> appliquées à une <strong>communication plurimédia</strong>.</p>
+
+<p>Ces compétences ont été mobilisées dans les projets <strong>SAE302</strong> et <strong>SAE303</strong>, incluant la création d’une <strong>publicité</strong>, d’un <strong>storyboard</strong>, d’une <strong>note d’intention</strong> et la <strong>modélisation 3D</strong> d’un produit.</p>
+
+<p>Ma maîtrise des outils audiovisuels (R311) m’a permis de garantir une production à la fois <strong>créative</strong> et <strong>techniquement aboutie</strong>, tandis que mes connaissances en <strong>mathématiques appliquées (R315)</strong> ont renforcé la qualité et la précision des éléments produits.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 302 / SAE 303 – Création plurimédia',
+                'description' => 'Production d’une publicité, d’une note d’intention, d’un storyboard et modélisation 3D d’un parfum dans une approche cohérente et professionnelle de communication plurimédia.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC23.06',
+            'name' => 'Élaborer et produire des animations, des designs sonores, des effets spéciaux, de la visualisation de données ou de la 3D',
+            'category' => 'Exprimer',
+            'year' => '2ème année – Semestre 4',
+            'description' => <<<HTML
+<p>Dans le cadre de l’<strong>AC2306</strong>, j’ai développé des compétences en <strong>animation</strong>, <strong>design sonore</strong>, <strong>effets spéciaux</strong>, <strong>visualisation de données</strong> et <strong>modélisation 3D</strong>.</p>
+
+<p>J’ai appliqué ces compétences dans le projet <strong>SAE 303</strong>, où j’ai participé à la création d’une <strong>data visualisation</strong> et d’une <strong>présentation orale</strong> sur le thème des <strong>bornes électriques en France</strong>.</p>
+
+<p>Grâce à mes connaissances en <strong>audiovisuel (R311)</strong>, j’ai pu assurer la qualité technique et esthétique de ces productions dans un cadre professionnel exigeant.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 303 – Data visualisation & Présentation',
+                'description' => 'Production d’une visualisation de données et d’une présentation orale sur le nombre de bornes électriques en France, intégrant des éléments audiovisuels de qualité.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC23.06',
+            'name' => 'Élaborer et produire des animations, des designs sonores, des effets spéciaux, de la visualisation de données ou de la 3D',
+            'category' => 'Exprimer',
+            'year' => '2ème année – Semestre 4',
+            'description' => <<<HTML
+<p>Dans le cadre du projet <strong>SAE 402</strong>, j’ai participé à la <strong>réalisation d’un dispositif interactif</strong> centré sur le thème du <em>double maléfique</em>, en mettant l’accent sur la <strong>production de contenus multimédias immersifs</strong>.</p>
+
+<p>J’ai élaboré des <strong>designs sonores immersifs</strong> et des <strong>effets spéciaux percutants</strong>, soutenus par une phase de recherche approfondie visant à optimiser l’expérience sonore et visuelle du projet.</p>
+
+<p>Cette approche a permis de renforcer l’impact émotionnel et narratif du dispositif, en créant une <strong>expérience plurimédia cohérente et captivante</strong>.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 402 – Dispositif interactif “Double maléfique”',
+                'description' => 'Création d’un dispositif interactif avec effets visuels et design sonore immersifs autour du thème du double maléfique.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC14.01',
+            'name' => 'Exploiter de manière autonome un environnement de développement efficace et productif',
+            'category' => 'Entreprendre',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de mes activités de développement web, j’ai exploité de manière autonome un environnement de développement complet pour concevoir, coder et <strong>déployer des sites web</strong>.</p>
+
+<p>J’ai utilisé <strong>HTML</strong> pour la structure, <strong>CSS</strong> pour le style, et <strong>PHP</strong> pour la logique côté serveur, tout en développant avec <strong>Visual Studio Code</strong>. Pour la mise en ligne, j’ai déployé les projets sur un <strong>VPS</strong> personnel à l’aide de <strong>FileZilla</strong>, en transférant mes fichiers via FTP.</p>
+
+<p>Ce travail m’a permis de maîtriser les étapes clés du développement web en autonomie, de la conception à la mise en ligne, dans un environnement productif et professionnel.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Déploiement de sites web dynamiques sur serveur VPS',
+                'description' => 'Création et mise en ligne de sites web via HTML, CSS et PHP, déployés sur un VPS à l’aide de FileZilla.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC14.02',
+            'name' => 'Produire des pages Web fluides incluant un balisage sémantique efficace et des interactions simples',
+            'category' => 'Entreprendre',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Grâce à la ressource <strong>R112</strong>, j’ai renforcé mes compétences en conception de sites web fluides et accessibles, en mettant en œuvre un balisage <strong>HTML sémantique</strong> et des <strong>interactions simples</strong>.</p>
+
+<p>Ces compétences ont été mises en pratique dans le cadre de la <strong>SAE 203</strong>, à travers la création d’un site web dédié à l’univers Minecraft. Ce projet m’a permis d’optimiser la structure du site à l’aide de balises HTML adaptées et de veiller à la qualité de la navigation utilisateur.</p>
+
+<p>Ce site web est le reflet de mon souci du détail et de ma capacité à concevoir des interfaces web claires, accessibles et agréables à utiliser.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Site Minecraft - SAE 203',
+                'description' => 'Création d’un site web sur Minecraft avec un balisage sémantique structuré et des interactions simples, dans le cadre de la SAE 203.',
+            ],
+            'project_link' => 'Site Web',
+        ],
+        [
+            'code' => 'AC14.03',
+            'name' => 'Générer des pages Web à partir de données structurées',
+            'category' => 'Entreprendre',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre du projet <strong>SAE 105</strong>, j’ai appris à manipuler des <strong>données structurées</strong> provenant d’un fichier Excel, que j’ai converties en <strong>formats CSV puis JSON</strong> pour les intégrer dynamiquement dans une page web en <strong>PHP</strong>.</p>
+
+<p>Cette compétence a été approfondie dans la ressource <strong>R213</strong>, où j’ai utilisé <strong>SQL</strong> pour interagir avec une base de données. J’ai conçu des requêtes permettant de se connecter à la base, d’en extraire les informations pertinentes et de les afficher sous forme de pages web dynamiques.</p>
+
+<p>Ces expériences m’ont permis de comprendre l’intérêt des données structurées dans le développement web et de produire des sites capables de s’adapter dynamiquement au contenu des bases de données.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Affichage dynamique de données - SAE 105 & R213',
+                'description' => 'Conversion de données Excel en JSON, affichage en PHP et utilisation de requêtes SQL pour générer des pages web dynamiques.',
+            ],
+            'project_link' => 'Données',
+        ],
+        [
+            'code' => 'AC14.04',
+            'name' => 'Mettre en ligne une application Web en utilisant une solution d’hébergement standard',
+            'category' => 'Entreprendre',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le projet <strong>SAE 105</strong>, j’ai amélioré la connexion SSH afin de mettre à jour les services <strong>Apache</strong> et <strong>PHP</strong>, puis hébergé mon site sur un <strong>VPS</strong> à l’aide de FileZilla pour le transfert des fichiers.</p>
+
+<p>Pour le projet <strong>SAE 203</strong>, j’ai appris à utiliser <strong>GitHub</strong> comme solution d’hébergement avec versioning. J’ai transféré les fichiers depuis Docker vers GitHub, puis les ai récupérés sur le VPS, assurant une mise en ligne efficace et traçable de l’application.</p>
+
+<p>Grâce à cette démarche, j’ai pu maîtriser les processus d’hébergement web en environnement professionnel tout en tirant profit des outils de versioning pour garantir la stabilité et la continuité du service.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Hébergement web sur VPS – SAE 105 & SAE 203',
+                'description' => 'Utilisation de FileZilla, SSH, GitHub et Docker pour déployer et gérer des applications web sur serveur distant.',
+            ],
+            'project_link' => '',
+        ],
     ];
 
     public function getAllSkills(): array
