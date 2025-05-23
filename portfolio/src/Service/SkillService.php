@@ -1071,7 +1071,7 @@ HTML,
         [
             'code' => 'AC14.01',
             'name' => 'Exploiter de manière autonome un environnement de développement efficace et productif',
-            'category' => 'Entreprendre',
+            'category' => 'Développé',
             'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le cadre de mes activités de développement web, j’ai exploité de manière autonome un environnement de développement complet pour concevoir, coder et <strong>déployer des sites web</strong>.</p>
@@ -1092,7 +1092,7 @@ HTML,
         [
             'code' => 'AC14.02',
             'name' => 'Produire des pages Web fluides incluant un balisage sémantique efficace et des interactions simples',
-            'category' => 'Entreprendre',
+            'category' => 'Développé',
             'year' => '2ème année',
             'description' => <<<HTML
 <p>Grâce à la ressource <strong>R112</strong>, j’ai renforcé mes compétences en conception de sites web fluides et accessibles, en mettant en œuvre un balisage <strong>HTML sémantique</strong> et des <strong>interactions simples</strong>.</p>
@@ -1113,7 +1113,7 @@ HTML,
         [
             'code' => 'AC14.03',
             'name' => 'Générer des pages Web à partir de données structurées',
-            'category' => 'Entreprendre',
+            'category' => 'Développé',
             'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet <strong>SAE 105</strong>, j’ai appris à manipuler des <strong>données structurées</strong> provenant d’un fichier Excel, que j’ai converties en <strong>formats CSV puis JSON</strong> pour les intégrer dynamiquement dans une page web en <strong>PHP</strong>.</p>
@@ -1134,7 +1134,7 @@ HTML,
         [
             'code' => 'AC14.04',
             'name' => 'Mettre en ligne une application Web en utilisant une solution d’hébergement standard',
-            'category' => 'Entreprendre',
+            'category' => 'Développé',
             'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le projet <strong>SAE 105</strong>, j’ai amélioré la connexion SSH afin de mettre à jour les services <strong>Apache</strong> et <strong>PHP</strong>, puis hébergé mon site sur un <strong>VPS</strong> à l’aide de FileZilla pour le transfert des fichiers.</p>
@@ -1149,6 +1149,461 @@ HTML,
             'project' => [
                 'title' => 'Hébergement web sur VPS – SAE 105 & SAE 203',
                 'description' => 'Utilisation de FileZilla, SSH, GitHub et Docker pour déployer et gérer des applications web sur serveur distant.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC14.05',
+            'name' => 'Modéliser les données d’une application Web',
+            'category' => 'Développé',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre du projet <strong>SAE 203</strong>, j’ai eu l’opportunité de modéliser les données pour un système d’information complet. Grâce aux ressources <strong>R214</strong> et <strong>R213</strong>, j’ai acquis des compétences solides en modélisation, en utilisant les outils MCD (Modèle Conceptuel de Données) et MLD (Modèle Logique de Données).</p>
+
+<p>J’ai également appris à appliquer la méthode GET, qui m’a permis de structurer efficacement les données en fonction des besoins fonctionnels du projet. Cette approche m’a aidé à concevoir un système d’information cohérent et performant, en assurant une gestion optimale et évolutive des données de notre application web.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 203 – Modélisation de données pour un site d’information',
+                'description' => 'Conception MCD/MLD et structuration de la base de données pour un site web dynamique.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC14.06',
+            'name' => 'Déployer et personnaliser une application Web en utilisant un CMS ou un framework MVC',
+            'category' => 'Développé',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre du projet <strong>SAE 203</strong>, j’ai adapté un modèle d’accès aux données en développant une interface d’administration sécurisée et fonctionnelle.</p>
+
+<p>Grâce à l’intégration d’un <code>.htaccess</code>, l’accès à l’espace administrateur est restreint, garantissant la confidentialité des données sensibles. J’ai également implémenté des fonctionnalités essentielles telles que l’affichage dynamique des données de la base sous forme de tableau, ainsi que des options pour <strong>ajouter, modifier et supprimer</strong> les éléments.</p>
+
+<p>Ce travail m’a permis de comprendre en profondeur la logique MVC, tout en développant une interface conviviale et efficace pour la gestion de contenu, démontrant mes compétences en personnalisation d’une application web dans un cadre structuré.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 203 – Interface d’administration sécurisée et personnalisée',
+                'description' => 'Mise en place d’un espace d’administration avec restrictions d’accès et gestion CRUD des données.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC24.01',
+            'name' => 'Produire des pages et applications Web responsives',
+            'category' => 'Développé',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de la <strong>SAE 303</strong>, j’ai développé des compétences avancées en production de pages et d’applications web <strong>responsives</strong>, capables de s’adapter à différents supports (mobiles, tablettes, ordinateurs).</p>
+
+<p>En utilisant les langages HTML, CSS et JavaScript, complétés par mes connaissances en <strong>développement front-end</strong> acquises dans la ressource <strong>R312</strong>, j’ai participé activement à la conception d’interfaces interactives et ergonomiques.</p>
+
+<p>J’ai également veillé à optimiser l’expérience utilisateur en intégrant des <strong>interactions riches</strong> et des animations fluides, garantissant une navigation intuitive sur tous les appareils. Ces compétences sont au cœur des enjeux actuels du web moderne.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 303 – Application responsive et interactive',
+                'description' => 'Conception et développement d’une application web responsive avec interactions riches et design adaptatif.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC24.02',
+            'name' => 'Mettre en place ou développer un back office',
+            'category' => 'Développé',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de la <strong>SAE 301</strong>, j’ai mis en œuvre mes compétences en développement web pour <strong>concevoir et développer un back office</strong> dédié à la gestion de contenu et d'utilisateurs d’un projet professionnel.</p>
+
+<p>Ce back office intègre des fonctionnalités essentielles : affichage, modification et suppression de données issues d'une base SQL, sécurisation de l'accès par authentification, et interface intuitive pour les administrateurs.</p>
+
+<p>En m’appuyant sur les connaissances acquises dans la ressource <strong>R316 – Gestion de projet</strong>, j’ai structuré efficacement le développement de cette interface, garantissant une <strong>organisation claire, une ergonomie adaptée</strong> et une maintenance facilitée pour les futurs utilisateurs.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'SAE 301 – Interface de back office pour gestion de projet',
+                'description' => 'Conception et développement d’un back office fonctionnel pour l’administration d’un projet professionnel.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC24.02.S4',
+            'name' => 'Mettre en place ou développer un back office (S4)',
+            'category' => 'Développé',
+            'year' => '2ème année (S4)',
+            'description' => <<<HTML
+<p>Dans le cadre de la <strong>ressource R407</strong>, j’ai approfondi mes compétences en back-end en <strong>développant une API REST avec le framework Symfony</strong>.</p>
+
+<p>Ce back office s’articule autour d’une architecture moderne, où un <strong>serveur front-end Vue.js</strong> consomme les données exposées par l’API. J’ai mis en place les <strong>entités nécessaires</strong> au bon fonctionnement de l’application, comme les formulaires de saisie (ex. : formulaire fournisseur), tout en respectant les bonnes pratiques de sécurité, de structuration et d’accès aux données.</p>
+
+<p>Ce projet m’a permis de maîtriser <strong>l’interconnexion entre un front Vue.js et un back Symfony</strong>, compétence indispensable pour tout projet de développement web à architecture découplée.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Développement d’un back office API avec Symfony et Vue.js',
+                'description' => 'Mise en place d’une API Symfony interconnectée avec un front-end Vue.js pour la gestion d’entités métiers.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC24.03',
+            'name' => 'Intégrer, produire ou développer des interactions riches ou des dispositifs interactifs',
+            'category' => 'Développé',
+            'year' => '2ème année',
+            'description' => <<<HTML
+<p>Dans le cadre de la <strong>SAE 303</strong>, j’ai mobilisé mes compétences en développement front-end, acquises notamment via la ressource <strong>R312 (Dev Font)</strong>, pour <strong>concevoir et intégrer des interactions riches</strong> au sein d’une application web interactive.</p>
+
+<p>J’ai travaillé sur l’<strong>ergonomie</strong>, les <strong>animations</strong> et les <strong>réactions dynamiques de l’interface utilisateur</strong>, en veillant à offrir une expérience fluide et engageante. Ces éléments interactifs améliorent la navigation et renforcent l’impact des contenus proposés.</p>
+
+<p>Cette mise en œuvre m’a permis de renforcer ma maîtrise des technologies front-end modernes (HTML, CSS, JavaScript, Vue.js) tout en mettant en valeur mes compétences dans la <strong>conception d’interfaces utilisateur interactives</strong>.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Développement d’interfaces interactives pour la SAE 303',
+                'description' => 'Conception d’interactions riches et de dispositifs web interactifs favorisant l’engagement utilisateur.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC24.03.S4',
+            'name' => 'Intégrer, produire ou développer des interactions riches ou des dispositifs interactifs (S4)',
+            'category' => 'Développé',
+            'year' => '4ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre du projet <strong>SAE 402</strong>, j’ai participé à la <strong>conception d’un dispositif interactif</strong> original via une application web immersive. Nous avons imaginé un parcours narratif soutenu par une <strong>histoire écrite</strong>, des <strong>visuels intrigants</strong> et un <strong>sound design qualitatif</strong>.</p>
+
+<p>J’ai exploité le framework <strong>Vue.js</strong> pour garantir une <strong>ergonomie fluide</strong> et une <strong>navigation libre</strong>, favorisant ainsi l’<strong>immersion utilisateur</strong> et l’interactivité du dispositif. Ce projet m’a permis de mettre en œuvre des compétences avancées en <strong>développement front-end</strong> et en conception d’<strong>expériences numériques engageantes</strong>.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Application web immersive sur le thème du double maléfique (SAE402)',
+                'description' => 'Création d’un dispositif narratif interactif avec une interface fluide, des contenus multimédias et une navigation libre grâce à Vue.js.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC24.04',
+            'name' => 'Modéliser les traitements d’une application Web',
+            'category' => 'Développé',
+            'year' => '3ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre de la <strong>SAE 301</strong>, j’ai mis en œuvre la compétence de <strong>modélisation des traitements</strong> pour une application web. Cette activité m’a permis d’analyser et de représenter de manière précise les <strong>flux de données</strong>, les <strong>logiques métier</strong> et les <strong>interactions</strong> nécessaires au bon fonctionnement du projet.</p>
+
+<p>Grâce aux outils de modélisation appris en cours, j’ai pu formaliser les <strong>processus applicatifs</strong> sous forme de diagrammes (ex. diagrammes d’activités ou de séquence), facilitant ainsi le développement, la collaboration en équipe et la compréhension technique du projet. Cette modélisation a joué un rôle central dans l’assurance qualité et la robustesse de l’application web finale.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Projet SAE 301 : Application Web avec modélisation des traitements',
+                'description' => 'Modélisation des traitements pour structurer la logique métier d’une application Web, en lien avec la gestion d’un back-office et le développement front/back.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC24.05',
+            'name' => 'Optimiser une application web en termes de référencement et de temps de chargement',
+            'category' => 'Développé',
+            'year' => '3ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre du projet <strong>SAE 301</strong>, j’ai appliqué mes compétences en <strong>optimisation web</strong> pour améliorer à la fois le <strong>référencement naturel (SEO)</strong> et le <strong>temps de chargement</strong> de l’application développée.</p>
+
+<p>J’ai mis en œuvre des pratiques telles que l’<strong>optimisation des balises HTML sémantiques</strong>, la <strong>réduction du poids des médias</strong> (images compressées, lazy loading), la <strong>minification des fichiers CSS et JavaScript</strong>, ainsi que l’<strong’amélioration du temps de réponse serveur</strong>. Ces optimisations ont significativement contribué à la <strong>performance globale de l’application</strong> et à une meilleure accessibilité sur le web.</p>
+
+<p>Les ressources <strong>R312 (Développement front-end)</strong> et <strong>R314 (Déploiement de service)</strong> ont été essentielles pour garantir une mise en production fluide, rapide et adaptée aux standards du web moderne.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Projet SAE 301 : Optimisation web',
+                'description' => 'Optimisation d’une application web en termes de référencement naturel (SEO) et de performances techniques, pour une expérience utilisateur rapide et efficace.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC24.06',
+            'name' => 'Configurer une solution d’hébergement adaptée aux besoins',
+            'category' => 'Développé',
+            'year' => '3ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre du projet <strong>SAE 301</strong>, j’ai configuré une <strong>solution d’hébergement</strong> adaptée aux exigences du projet. J’ai utilisé un <strong>serveur VPS</strong> sur lequel j’ai installé et configuré les services nécessaires tels que <strong>Apache</strong>, <strong>PHP</strong>, <strong>MySQL</strong> et <strong>phpMyAdmin</strong>.</p>
+
+<p>J’ai également mis en œuvre des techniques de <strong>sécurisation du serveur</strong> via SSH, et de <strong>déploiement continu</strong> grâce à l’intégration de GitHub pour gérer les versions de l’application. La structure d’hébergement choisie a permis une <strong>mise en ligne fiable, sécurisée et évolutive</strong> de l’application.</p>
+
+<p>Cette configuration a été rendue possible grâce à l’acquisition de compétences en <strong>déploiement de service (R314)</strong>, essentielles pour garantir la stabilité et la performance de l’application web hébergée.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Projet SAE 301 : Configuration d’un serveur d’hébergement',
+                'description' => 'Installation, configuration et sécurisation d’un serveur VPS pour le déploiement d’une application web avec GitHub, Apache, PHP et MySQL.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC15.01',
+            'name' => 'Gérer un projet avec une méthode classique',
+            'category' => 'Entreprendre',
+            'year' => '3ème semestre',
+            'description' => <<<HTML
+<p>Nous avons utilisé avec succès <strong>Trello</strong> pour créer un tableau de bord de gestion des tâches et <strong>Google Sheets</strong> pour planifier les activités sur un calendrier partagé. Cette complémentarité des outils nous a permis une organisation fluide du travail, une meilleure collaboration et un suivi efficace de l'avancement de notre projet <strong>SAE202</strong>.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Organisation efficace du projet SAE202 avec Trello et Google Sheets',
+                'description' => 'Utilisation conjointe de Trello et Google Sheets pour une gestion collaborative et un suivi optimal du projet.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC15.02',
+            'name' => 'Budgéter un projet et suivre sa rentabilité',
+            'category' => 'Entreprendre',
+            'year' => '3ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre du projet <strong>SAE106</strong>, j'ai réalisé une budgétisation efficace en réfléchissant aux ressources nécessaires et aux coûts associés, ce qui m'a permis de planifier et suivre les dépenses. De plus, j'ai acquis des compétences en budgétisation grâce à la ressource <strong>R117</strong>, me permettant de suivre précisément l'avancement financier du projet.</p>
+<p>Concernant le projet <strong>SAE202</strong>, notre groupe a été réparti en plusieurs ateliers distincts, m'amenant à suivre attentivement l'avancement de chaque équipe afin d'assurer la conformité du rendu final. Cette coordination a été essentielle pour garantir la cohérence et la réussite globale du projet.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Budgétisation et coordination pour les projets SAE106 et SAE202',
+                'description' => 'Gestion précise du budget et suivi de la rentabilité ainsi que coordination des équipes pour assurer la réussite globale du projet.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC15.03',
+            'name' => 'Découvrir les écosystèmes d’innovation numérique (fab labs, living labs, tiers-lieux, incubateurs…)',
+            'category' => 'Entreprendre',
+            'year' => '3ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre de mes projets, j'ai utilisé des outils de gestion tels qu'un <strong>diagramme de Gantt</strong> pour répartir structurellement les tâches et responsabilités au sein de l'équipe. Cette approche a permis d'organiser efficacement notre travail.</p>
+<p>De plus, pour le projet <strong>SAE202</strong>, nous nous sommes répartis en ateliers distincts, tout en maintenant une cohérence globale. Ces stratégies de planification et de répartition ont été essentielles pour assurer une gestion efficace, une collaboration harmonieuse et l'atteinte de nos objectifs communs.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Gestion de projet avec méthodes éprouvées',
+                'description' => 'Utilisation de diagrammes de Gantt et répartition structurée des tâches pour une gestion et collaboration efficaces au sein du projet SAE202.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC15.04',
+            'name' => 'Analyser un produit ou un service innovant en identifiant les propositions de valeurs et en évaluant les solutions proposées',
+            'category' => 'Entreprendre',
+            'year' => '3ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre de la ressource <strong>R204</strong>, j'ai été chargé de rendre un site web <strong>éco-responsable</strong>. Pour atteindre cet objectif, j'ai mis en place des mesures visant à optimiser la consommation d'énergie, à minimiser les émissions de gaz à effet de serre et à favoriser l'utilisation de ressources durables.</p>
+<p>J'ai également exploré des écosystèmes d'innovation numérique afin de découvrir de nouvelles solutions respectueuses de l'environnement dans le domaine du développement web. Cette démarche m'a permis de prendre conscience de l'importance de l'éco-responsabilité dans la conception et la gestion des sites web, contribuant ainsi à la préservation de notre environnement.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Optimisation éco-responsable d’un site web',
+                'description' => 'Mise en place de mesures pour réduire l’empreinte environnementale d’un site web, intégrant des solutions durables et innovantes issues des écosystèmes numériques.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC15.05',
+            'name' => 'Construire une présence en ligne professionnelle (personal branding)',
+            'category' => 'Entreprendre',
+            'year' => '3ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre du projet de la <strong>SAE201</strong>, mon groupe et moi avons été chargés d'analyser le service proposé par une application de déplacement à vélo écologique. Pour cela, nous avons examiné attentivement les fonctionnalités offertes par l'application <em>Komoot</em>.</p>
+<p>Cette analyse nous a permis d'identifier les aspects qui pourraient être améliorés ou ajoutés à notre propre projet. Nous avons ainsi pu cibler les points forts et les faiblesses de l'application de référence, et proposer des fonctionnalités innovantes et adaptées aux besoins des utilisateurs de notre application de déplacement à vélo écologique.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Analyse et amélioration d’une application de mobilité écologique',
+                'description' => 'Étude comparative de l’application Komoot pour proposer des fonctionnalités innovantes adaptées à un service de déplacement à vélo écologique.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC15.06',
+            'name' => 'Interagir au sein des organisations',
+            'category' => 'Entreprendre',
+            'year' => '3ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre du projet de la <strong>SAE204</strong>, j'ai créé une présence en ligne et un CV vidéo pour mettre en valeur mes compétences et mon projet professionnel. J'ai réalisé une présentation détaillée de moi-même, en utilisant le logiciel <em>Canva</em> pour créer un contenu visuel attractif et professionnel.</p>
+<p>Cette démarche m'a permis de développer mes compétences en communication et en présentation, tout en rendant mon profil plus impactant dans ma recherche de stage.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Création d’une présence en ligne et d’un CV vidéo',
+                'description' => 'Utilisation de Canva pour concevoir un CV vidéo et une présence en ligne dynamique afin de valoriser mes compétences dans le cadre de ma recherche de stage.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC15.07',
+            'name' => 'Produire un message écrit ou oral professionnel',
+            'category' => 'Entreprendre',
+            'year' => '3ème semestre',
+            'description' => <<<HTML
+<p>Dans ce module, j’ai développé mes compétences pour produire un message écrit ou oral de manière professionnelle. Cela inclut la structuration claire des idées, l’adaptation du ton et du style en fonction du public cible, ainsi que l’utilisation d’outils numériques pour enrichir la présentation.</p>
+<p>J’ai mis en pratique ces compétences à travers la réalisation d’un CV vidéo, qui combine à la fois un message oral et une mise en forme visuelle professionnelle, facilitant ainsi ma communication auprès des recruteurs.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Création d’un CV vidéo professionnel',
+                'description' => 'Conception et production d’un CV vidéo, intégrant un message oral clair et structuré, afin de valoriser mes compétences et mon parcours professionnel.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC25.01',
+            'name' => 'Gérer un projet avec une méthode d’amélioration continue par exemple une méthode agile',
+            'category' => 'Entreprendre',
+            'year' => '4ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre de l'AC2501, je développe la compétence de gérer un projet selon une méthode d'amélioration continue, telle qu'une approche agile. Ces compétences sont mises en pratique dans la <strong>SAE301</strong>, où je suis impliqué dans un projet professionnel nécessitant une gestion de projet efficace.</p>
+<p>L'intégration des compétences en gestion de projet (R316) me permet d'adopter une approche agile favorisant l'adaptabilité, la collaboration et l'amélioration continue tout au long de ce projet.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Projet SAE301 : Gestion agile de projet',
+                'description' => 'Application de la méthode agile pour assurer la gestion efficace et évolutive du projet, favorisant la collaboration et l’amélioration continue.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC25.02',
+            'name' => 'Cartographier un écosystème (identification des acteurs, synthèse des propositions de valeur)',
+            'category' => 'Entreprendre',
+            'year' => '4ème semestre',
+            'description' => <<<HTML
+<p>Au sein de l'AC2502, je développe la compétence de cartographier un écosystème, impliquant l'identification des acteurs et la synthèse des propositions de valeur. Cette compétence trouve son application dans la <strong>SAE301</strong>, où je suis engagé dans un projet nécessitant une compréhension approfondie de l'écosystème associé.</p>
+<p>Les compétences en droit (R317) sont intégrées pour garantir une cartographie précise et conforme aux réglementations et exigences juridiques dans le cadre de ce projet.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Projet SAE301 : Cartographie d’un écosystème',
+                'description' => 'Identification des acteurs et synthèse des propositions de valeur, avec un focus sur les aspects juridiques pour assurer conformité et pertinence.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC25.03',
+            'name' => 'Initier la constitution d’un réseau professionnel',
+            'category' => 'Entreprendre',
+            'year' => '4ème semestre',
+            'description' => <<<HTML
+<p>L'AC2503 me permet de développer la compétence d'initier la constitution d'un réseau professionnel. Cette compétence est activement mise en œuvre dans les <strong>SAE301</strong> et <strong>SAE302</strong>, où je suis engagé dans des projets professionnels nécessitant l'établissement et l'extension d'un réseau professionnel.</p>
+<p>Ces expériences contribuent non seulement au développement de compétences techniques, mais aussi à la création de relations professionnelles bénéfiques pour ma carrière.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Projets SAE301 & SAE302 : Constitution d’un réseau professionnel',
+                'description' => 'Mise en place et développement d’un réseau professionnel utile à la fois pour les projets en cours et pour le futur professionnel.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC25.04',
+            'name' => 'Collaborer au sein des organisations',
+            'category' => 'Entreprendre',
+            'year' => '4ème semestre',
+            'description' => <<<HTML
+<p>L'AC2504 me permet de développer la compétence de collaborer au sein des organisations. Cette compétence est activement mise en œuvre dans la <strong>SAE302</strong>, où je participe à un projet professionnel impliquant une collaboration étroite au sein d'une équipe.</p>
+<p>Les compétences en anglais (<strong>R301</strong> et <strong>R302</strong>) et en rhétorique (<strong>R307</strong>) sont intégrées pour faciliter une communication efficace et une collaboration harmonieuse au sein de l'organisation.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Projet SAE302 : Collaboration en équipe',
+                'description' => 'Participation à un projet professionnel nécessitant une collaboration efficace, avec un accent sur la communication en anglais et la rhétorique.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC25.04.S4',
+            'name' => 'Collaborer au sein des organisations ( S4 )',
+            'category' => 'Entreprendre',
+            'year' => '4ème semestre',
+            'description' => <<<HTML
+<p>Dans le cadre du projet <strong>SAE401</strong>, mon groupe et moi avons collaboré pour concevoir le site de jeux vidéo <strong>Greenplay</strong>. En partageant nos idées et responsabilités, nous avons pu développer un contenu cohérent et percutant, en utilisant nos compétences respectives en développement, design et hébergement.</p>
+<p>Cette collaboration m'a permis de produire un site de jeux efficace, en ligne avec nos objectifs techniques et notre vision pour récompenser les joueurs.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Projet SAE401 : Collaboration pour le site Greenplay',
+                'description' => 'Travail d’équipe autour du développement, du design et de l’hébergement pour créer un site de jeux vidéo performant et cohérent.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC25.05',
+            'name' => 'Maitriser les codes des productions écrites et orales professionnelles',
+            'category' => 'Entreprendre',
+            'year' => '4ème semestre',
+            'description' => <<<HTML
+<p>L'<strong>AC2505</strong> me permet de développer la compétence de maîtriser les codes des productions écrites et orales professionnelles. Cette compétence est appliquée de manière significative dans la <strong>SAE302</strong>, où je participe à un projet professionnel nécessitant la production d'écrits et d'orales professionnels.</p>
+<p>Les compétences en anglais (R301 et R302) ainsi que la maîtrise de la rhétorique (R307) sont intégrées pour assurer la qualité et l'efficacité des communications professionnelles dans le cadre de ce projet.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Projet SAE302 : Communication professionnelle écrite et orale',
+                'description' => 'Production de documents écrits et oraux respectant les standards professionnels, intégrant des compétences linguistiques et rhétoriques.',
+            ],
+            'project_link' => '',
+        ],
+        [
+            'code' => 'AC25.06',
+            'name' => 'Prendre en compte les contraintes juridiques',
+            'category' => 'Entreprendre',
+            'year' => '4ème semestre',
+            'description' => <<<HTML
+<p>Au sein de l'<strong>AC2506</strong>, je développe la compétence de prendre en compte les contraintes juridiques. Cette compétence est appliquée dans les <strong>SAE301</strong> et <strong>SAE302</strong>, où je suis impliqué dans des projets professionnels exigeant une compréhension approfondie des contraintes juridiques associées.</p>
+<p>Les compétences en droit (R317) sont intégrées pour garantir la conformité et la prise en compte adéquate des aspects juridiques dans la réalisation de ces projets.</p>
+HTML,
+            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image_illustration' => '',
+            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'project' => [
+                'title' => 'Projets SAE301 & SAE302 : Conformité juridique',
+                'description' => 'Application des connaissances juridiques pour assurer la conformité légale des projets professionnels.',
             ],
             'project_link' => '',
         ],
