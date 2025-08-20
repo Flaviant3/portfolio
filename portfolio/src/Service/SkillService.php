@@ -1592,7 +1592,7 @@ HTML,
         [
             'code' => 'AC25.06',
             'name' => 'Prendre en compte les contraintes juridiques',
-            'category' => 'Entreprendre',
+            'category' => 'Entreprendree',
             'year' => '4ème semestre',
             'description' => <<<HTML
 <p>Au sein de l'<strong>AC2506</strong>, je développe la compétence de prendre en compte les contraintes juridiques. Cette compétence est appliquée dans les <strong>SAE301</strong> et <strong>SAE302</strong>, où je suis impliqué dans des projets professionnels exigeant une compréhension approfondie des contraintes juridiques associées.</p>
