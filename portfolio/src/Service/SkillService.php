@@ -714,7 +714,7 @@ HTML,
 
 <p>Ces expériences ont renforcé mes compétences en <strong>écriture scénaristique, interactive et multimédia</strong>, essentielles pour produire des contenus numériques impactants et adaptés aux usages contemporains.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Capture d'écran du récit Twine ou du scénario
+            'image' => 'https://i.imgur.com/oS8pa3I.png', // Capture d'écran du récit Twine ou du scénario
             'image_illustration' => 'https://i.imgur.com/Yk5znR7.jpeg', // Visuel de bruitages ou ambiance sonore
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -739,7 +739,7 @@ HTML,
 
 <p>Ces projets m’ont permis de renforcer ma capacité à produire des pistes visuelles cohérentes, à explorer des univers graphiques variés, et à structurer l’imaginaire autour d’un projet de design.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Aucune image disponible
+            'image' => 'https://i.imgur.com/6ag6qTH.png', // Aucune image disponible
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -764,7 +764,7 @@ HTML,
 
 <p>Ces expériences ont renforcé ma maîtrise des outils de création graphique et m’ont permis d’explorer de nouvelles approches visuelles pour enrichir mes projets personnels et professionnels.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Aucune image fournie
+            'image' => 'https://i.imgur.com/PeQzbsL.png', // Aucune image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -789,7 +789,7 @@ HTML,
 
 <p>Ces projets ont renforcé mes compétences en gestion de projet audiovisuel tout en nourrissant ma passion pour l’image et le récit filmé.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Aucune image fournie
+            'image' => 'https://i.imgur.com/JaNJEGO.png', // Aucune image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -815,7 +815,7 @@ HTML,
 
 <p>Ce projet m’a permis d’expérimenter la conception d’interface centrée utilisateur, de la wireframe jusqu’à l’esthétique finale, en assurant une cohérence visuelle et fonctionnelle.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Aucune image fournie
+            'image' => 'https://i.imgur.com/p8dQVkP.png', // Aucune image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -839,7 +839,7 @@ HTML,
 
 <p>Ces projets m'ont permis de comprendre comment adapter mes visuels aux différents <strong>supports numériques</strong> et d’affiner mes compétences en <strong>design graphique</strong> appliqué.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Aucune image fournie
+            'image' => 'https://i.imgur.com/VcxFjdm.png', // Aucune image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -866,7 +866,7 @@ HTML,
 
 <p>Ce projet m’a permis de combiner rigueur journalistique et narration numérique pour proposer un contenu <strong>crédible, engageant et informatif</strong>.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image' => 'https://i.imgur.com/xSnYe4R.png', // Pas d’image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -894,7 +894,7 @@ HTML,
 
 <p>Ces expériences m'ont permis d'assurer une <strong>cohérence visuelle</strong> et esthétique au service d’une stratégie de communication efficace.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image' => 'https://i.imgur.com/CHzfNFq.png', // Pas d’image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -920,7 +920,7 @@ HTML,
 
 <p>Grâce à ces expériences, j’ai affiné ma capacité à créer une <strong>iconographie esthétique, pertinente et engageante</strong> pour enrichir l’expérience utilisateur et servir efficacement le propos narratif ou marketing.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image' => 'https://i.imgur.com/CHzfNFq.png', // Pas d’image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -947,7 +947,7 @@ HTML,
 
 <p>Grâce à ma connaissance de la culture artistique acquise en <strong>R310</strong>, j’ai veillé à produire une identité visuelle <strong>impactante, cohérente et adaptée</strong> au public ciblé.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image' => 'https://i.imgur.com/k0iRQ3J.png', // Pas d’image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -975,7 +975,7 @@ HTML,
 
 <p>Grâce à mes connaissances acquises en <strong>narration (R306)</strong> et en <strong>production audiovisuelle (R311)</strong>, j’ai contribué à une communication cohérente et impactante sur l’ensemble des supports visés.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image' => 'https://i.imgur.com/1KpYdUv.png', // Pas d’image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -996,7 +996,7 @@ HTML,
 
 <p>Cette approche m’a permis de créer une expérience <strong>immersive, pertinente et cohérente</strong>, où chaque contenu s’articule autour d’une narration forte et engageante à travers différents canaux.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image' => 'https://i.imgur.com/1KpYdUv.png', // Pas d’image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -1017,7 +1017,7 @@ HTML,
 
 <p>Ma maîtrise des outils audiovisuels (R311) m’a permis de garantir une production à la fois <strong>créative</strong> et <strong>techniquement aboutie</strong>, tandis que mes connaissances en <strong>mathématiques appliquées (R315)</strong> ont renforcé la qualité et la précision des éléments produits.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image' => 'https://i.imgur.com/omkH9n1.png', // Pas d’image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -1038,7 +1038,7 @@ HTML,
 
 <p>Grâce à mes connaissances en <strong>audiovisuel (R311)</strong>, j’ai pu assurer la qualité technique et esthétique de ces productions dans un cadre professionnel exigeant.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image' => 'https://i.imgur.com/yErz8Je.png', // Pas d’image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -1048,7 +1048,7 @@ HTML,
             'project_link' => '',
         ],
         [
-            'code' => 'AC23.06',
+            'code' => 'AC23.06.S4',
             'name' => 'Élaborer et produire des animations, des designs sonores, des effets spéciaux, de la visualisation de données ou de la 3D',
             'category' => 'Exprimer',
             'year' => '2ème année – Semestre 4',
@@ -1059,7 +1059,7 @@ HTML,
 
 <p>Cette approche a permis de renforcer l’impact émotionnel et narratif du dispositif, en créant une <strong>expérience plurimédia cohérente et captivante</strong>.</p>
 HTML,
-            'image' => 'https://i.imgur.com/Fzlnx1M.png', // Pas d’image fournie
+            'image' => 'https://i.imgur.com/yErz8Je.png', // Pas d’image fournie
             'image_illustration' => '',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
@@ -1072,7 +1072,7 @@ HTML,
             'code' => 'AC14.01',
             'name' => 'Exploiter de manière autonome un environnement de développement efficace et productif',
             'category' => 'Développé',
-            'year' => '2ème année',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans le cadre de mes activités de développement web, j’ai exploité de manière autonome un environnement de développement complet pour concevoir, coder et <strong>déployer des sites web</strong>.</p>
 
@@ -1093,7 +1093,7 @@ HTML,
             'code' => 'AC14.02',
             'name' => 'Produire des pages Web fluides incluant un balisage sémantique efficace et des interactions simples',
             'category' => 'Développé',
-            'year' => '2ème année',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Grâce à la ressource <strong>R112</strong>, j’ai renforcé mes compétences en conception de sites web fluides et accessibles, en mettant en œuvre un balisage <strong>HTML sémantique</strong> et des <strong>interactions simples</strong>.</p>
 
@@ -1114,7 +1114,7 @@ HTML,
             'code' => 'AC14.03',
             'name' => 'Générer des pages Web à partir de données structurées',
             'category' => 'Développé',
-            'year' => '2ème année',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet <strong>SAE 105</strong>, j’ai appris à manipuler des <strong>données structurées</strong> provenant d’un fichier Excel, que j’ai converties en <strong>formats CSV puis JSON</strong> pour les intégrer dynamiquement dans une page web en <strong>PHP</strong>.</p>
 
@@ -1135,7 +1135,7 @@ HTML,
             'code' => 'AC14.04',
             'name' => 'Mettre en ligne une application Web en utilisant une solution d’hébergement standard',
             'category' => 'Développé',
-            'year' => '2ème année',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans le projet <strong>SAE 105</strong>, j’ai amélioré la connexion SSH afin de mettre à jour les services <strong>Apache</strong> et <strong>PHP</strong>, puis hébergé mon site sur un <strong>VPS</strong> à l’aide de FileZilla pour le transfert des fichiers.</p>
 
@@ -1156,7 +1156,7 @@ HTML,
             'code' => 'AC14.05',
             'name' => 'Modéliser les données d’une application Web',
             'category' => 'Développé',
-            'year' => '2ème année',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet <strong>SAE 203</strong>, j’ai eu l’opportunité de modéliser les données pour un système d’information complet. Grâce aux ressources <strong>R214</strong> et <strong>R213</strong>, j’ai acquis des compétences solides en modélisation, en utilisant les outils MCD (Modèle Conceptuel de Données) et MLD (Modèle Logique de Données).</p>
 
@@ -1175,7 +1175,7 @@ HTML,
             'code' => 'AC14.06',
             'name' => 'Déployer et personnaliser une application Web en utilisant un CMS ou un framework MVC',
             'category' => 'Développé',
-            'year' => '2ème année',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet <strong>SAE 203</strong>, j’ai adapté un modèle d’accès aux données en développant une interface d’administration sécurisée et fonctionnelle.</p>
 
@@ -1238,7 +1238,7 @@ HTML,
             'code' => 'AC24.02.S4',
             'name' => 'Mettre en place ou développer un back office (S4)',
             'category' => 'Développé',
-            'year' => '2ème année (S4)',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le cadre de la <strong>ressource R407</strong>, j’ai approfondi mes compétences en back-end en <strong>développant une API REST avec le framework Symfony</strong>.</p>
 
@@ -1280,7 +1280,7 @@ HTML,
             'code' => 'AC24.03.S4',
             'name' => 'Intégrer, produire ou développer des interactions riches ou des dispositifs interactifs (S4)',
             'category' => 'Développé',
-            'year' => '4ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet <strong>SAE 402</strong>, j’ai participé à la <strong>conception d’un dispositif interactif</strong> original via une application web immersive. Nous avons imaginé un parcours narratif soutenu par une <strong>histoire écrite</strong>, des <strong>visuels intrigants</strong> et un <strong>sound design qualitatif</strong>.</p>
 
@@ -1299,7 +1299,7 @@ HTML,
             'code' => 'AC24.04',
             'name' => 'Modéliser les traitements d’une application Web',
             'category' => 'Développé',
-            'year' => '3ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le cadre de la <strong>SAE 301</strong>, j’ai mis en œuvre la compétence de <strong>modélisation des traitements</strong> pour une application web. Cette activité m’a permis d’analyser et de représenter de manière précise les <strong>flux de données</strong>, les <strong>logiques métier</strong> et les <strong>interactions</strong> nécessaires au bon fonctionnement du projet.</p>
 
@@ -1318,7 +1318,7 @@ HTML,
             'code' => 'AC24.05',
             'name' => 'Optimiser une application web en termes de référencement et de temps de chargement',
             'category' => 'Développé',
-            'year' => '3ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet <strong>SAE 301</strong>, j’ai appliqué mes compétences en <strong>optimisation web</strong> pour améliorer à la fois le <strong>référencement naturel (SEO)</strong> et le <strong>temps de chargement</strong> de l’application développée.</p>
 
@@ -1339,7 +1339,7 @@ HTML,
             'code' => 'AC24.06',
             'name' => 'Configurer une solution d’hébergement adaptée aux besoins',
             'category' => 'Développé',
-            'year' => '3ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet <strong>SAE 301</strong>, j’ai configuré une <strong>solution d’hébergement</strong> adaptée aux exigences du projet. J’ai utilisé un <strong>serveur VPS</strong> sur lequel j’ai installé et configuré les services nécessaires tels que <strong>Apache</strong>, <strong>PHP</strong>, <strong>MySQL</strong> et <strong>phpMyAdmin</strong>.</p>
 
@@ -1360,7 +1360,7 @@ HTML,
             'code' => 'AC15.01',
             'name' => 'Gérer un projet avec une méthode classique',
             'category' => 'Entreprendre',
-            'year' => '3ème semestre',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Nous avons utilisé avec succès <strong>Trello</strong> pour créer un tableau de bord de gestion des tâches et <strong>Google Sheets</strong> pour planifier les activités sur un calendrier partagé. Cette complémentarité des outils nous a permis une organisation fluide du travail, une meilleure collaboration et un suivi efficace de l'avancement de notre projet <strong>SAE202</strong>.</p>
 HTML,
@@ -1377,7 +1377,7 @@ HTML,
             'code' => 'AC15.02',
             'name' => 'Budgéter un projet et suivre sa rentabilité',
             'category' => 'Entreprendre',
-            'year' => '3ème semestre',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet <strong>SAE106</strong>, j'ai réalisé une budgétisation efficace en réfléchissant aux ressources nécessaires et aux coûts associés, ce qui m'a permis de planifier et suivre les dépenses. De plus, j'ai acquis des compétences en budgétisation grâce à la ressource <strong>R117</strong>, me permettant de suivre précisément l'avancement financier du projet.</p>
 <p>Concernant le projet <strong>SAE202</strong>, notre groupe a été réparti en plusieurs ateliers distincts, m'amenant à suivre attentivement l'avancement de chaque équipe afin d'assurer la conformité du rendu final. Cette coordination a été essentielle pour garantir la cohérence et la réussite globale du projet.</p>
@@ -1395,7 +1395,7 @@ HTML,
             'code' => 'AC15.03',
             'name' => 'Découvrir les écosystèmes d’innovation numérique (fab labs, living labs, tiers-lieux, incubateurs…)',
             'category' => 'Entreprendre',
-            'year' => '3ème semestre',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans le cadre de mes projets, j'ai utilisé des outils de gestion tels qu'un <strong>diagramme de Gantt</strong> pour répartir structurellement les tâches et responsabilités au sein de l'équipe. Cette approche a permis d'organiser efficacement notre travail.</p>
 <p>De plus, pour le projet <strong>SAE202</strong>, nous nous sommes répartis en ateliers distincts, tout en maintenant une cohérence globale. Ces stratégies de planification et de répartition ont été essentielles pour assurer une gestion efficace, une collaboration harmonieuse et l'atteinte de nos objectifs communs.</p>
@@ -1413,7 +1413,7 @@ HTML,
             'code' => 'AC15.04',
             'name' => 'Analyser un produit ou un service innovant en identifiant les propositions de valeurs et en évaluant les solutions proposées',
             'category' => 'Entreprendre',
-            'year' => '3ème semestre',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans le cadre de la ressource <strong>R204</strong>, j'ai été chargé de rendre un site web <strong>éco-responsable</strong>. Pour atteindre cet objectif, j'ai mis en place des mesures visant à optimiser la consommation d'énergie, à minimiser les émissions de gaz à effet de serre et à favoriser l'utilisation de ressources durables.</p>
 <p>J'ai également exploré des écosystèmes d'innovation numérique afin de découvrir de nouvelles solutions respectueuses de l'environnement dans le domaine du développement web. Cette démarche m'a permis de prendre conscience de l'importance de l'éco-responsabilité dans la conception et la gestion des sites web, contribuant ainsi à la préservation de notre environnement.</p>
@@ -1431,7 +1431,7 @@ HTML,
             'code' => 'AC15.05',
             'name' => 'Construire une présence en ligne professionnelle (personal branding)',
             'category' => 'Entreprendre',
-            'year' => '3ème semestre',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet de la <strong>SAE201</strong>, mon groupe et moi avons été chargés d'analyser le service proposé par une application de déplacement à vélo écologique. Pour cela, nous avons examiné attentivement les fonctionnalités offertes par l'application <em>Komoot</em>.</p>
 <p>Cette analyse nous a permis d'identifier les aspects qui pourraient être améliorés ou ajoutés à notre propre projet. Nous avons ainsi pu cibler les points forts et les faiblesses de l'application de référence, et proposer des fonctionnalités innovantes et adaptées aux besoins des utilisateurs de notre application de déplacement à vélo écologique.</p>
@@ -1449,7 +1449,7 @@ HTML,
             'code' => 'AC15.06',
             'name' => 'Interagir au sein des organisations',
             'category' => 'Entreprendre',
-            'year' => '3ème semestre',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet de la <strong>SAE204</strong>, j'ai créé une présence en ligne et un CV vidéo pour mettre en valeur mes compétences et mon projet professionnel. J'ai réalisé une présentation détaillée de moi-même, en utilisant le logiciel <em>Canva</em> pour créer un contenu visuel attractif et professionnel.</p>
 <p>Cette démarche m'a permis de développer mes compétences en communication et en présentation, tout en rendant mon profil plus impactant dans ma recherche de stage.</p>
@@ -1467,7 +1467,7 @@ HTML,
             'code' => 'AC15.07',
             'name' => 'Produire un message écrit ou oral professionnel',
             'category' => 'Entreprendre',
-            'year' => '3ème semestre',
+            'year' => '1ème année',
             'description' => <<<HTML
 <p>Dans ce module, j’ai développé mes compétences pour produire un message écrit ou oral de manière professionnelle. Cela inclut la structuration claire des idées, l’adaptation du ton et du style en fonction du public cible, ainsi que l’utilisation d’outils numériques pour enrichir la présentation.</p>
 <p>J’ai mis en pratique ces compétences à travers la réalisation d’un CV vidéo, qui combine à la fois un message oral et une mise en forme visuelle professionnelle, facilitant ainsi ma communication auprès des recruteurs.</p>
@@ -1485,7 +1485,7 @@ HTML,
             'code' => 'AC25.01',
             'name' => 'Gérer un projet avec une méthode d’amélioration continue par exemple une méthode agile',
             'category' => 'Entreprendre',
-            'year' => '4ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le cadre de l'AC2501, je développe la compétence de gérer un projet selon une méthode d'amélioration continue, telle qu'une approche agile. Ces compétences sont mises en pratique dans la <strong>SAE301</strong>, où je suis impliqué dans un projet professionnel nécessitant une gestion de projet efficace.</p>
 <p>L'intégration des compétences en gestion de projet (R316) me permet d'adopter une approche agile favorisant l'adaptabilité, la collaboration et l'amélioration continue tout au long de ce projet.</p>
@@ -1503,7 +1503,7 @@ HTML,
             'code' => 'AC25.02',
             'name' => 'Cartographier un écosystème (identification des acteurs, synthèse des propositions de valeur)',
             'category' => 'Entreprendre',
-            'year' => '4ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>Au sein de l'AC2502, je développe la compétence de cartographier un écosystème, impliquant l'identification des acteurs et la synthèse des propositions de valeur. Cette compétence trouve son application dans la <strong>SAE301</strong>, où je suis engagé dans un projet nécessitant une compréhension approfondie de l'écosystème associé.</p>
 <p>Les compétences en droit (R317) sont intégrées pour garantir une cartographie précise et conforme aux réglementations et exigences juridiques dans le cadre de ce projet.</p>
@@ -1521,7 +1521,7 @@ HTML,
             'code' => 'AC25.03',
             'name' => 'Initier la constitution d’un réseau professionnel',
             'category' => 'Entreprendre',
-            'year' => '4ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>L'AC2503 me permet de développer la compétence d'initier la constitution d'un réseau professionnel. Cette compétence est activement mise en œuvre dans les <strong>SAE301</strong> et <strong>SAE302</strong>, où je suis engagé dans des projets professionnels nécessitant l'établissement et l'extension d'un réseau professionnel.</p>
 <p>Ces expériences contribuent non seulement au développement de compétences techniques, mais aussi à la création de relations professionnelles bénéfiques pour ma carrière.</p>
@@ -1539,7 +1539,7 @@ HTML,
             'code' => 'AC25.04',
             'name' => 'Collaborer au sein des organisations',
             'category' => 'Entreprendre',
-            'year' => '4ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>L'AC2504 me permet de développer la compétence de collaborer au sein des organisations. Cette compétence est activement mise en œuvre dans la <strong>SAE302</strong>, où je participe à un projet professionnel impliquant une collaboration étroite au sein d'une équipe.</p>
 <p>Les compétences en anglais (<strong>R301</strong> et <strong>R302</strong>) et en rhétorique (<strong>R307</strong>) sont intégrées pour faciliter une communication efficace et une collaboration harmonieuse au sein de l'organisation.</p>
@@ -1557,7 +1557,7 @@ HTML,
             'code' => 'AC25.04.S4',
             'name' => 'Collaborer au sein des organisations ( S4 )',
             'category' => 'Entreprendre',
-            'year' => '4ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet <strong>SAE401</strong>, mon groupe et moi avons collaboré pour concevoir le site de jeux vidéo <strong>Greenplay</strong>. En partageant nos idées et responsabilités, nous avons pu développer un contenu cohérent et percutant, en utilisant nos compétences respectives en développement, design et hébergement.</p>
 <p>Cette collaboration m'a permis de produire un site de jeux efficace, en ligne avec nos objectifs techniques et notre vision pour récompenser les joueurs.</p>
@@ -1575,7 +1575,7 @@ HTML,
             'code' => 'AC25.05',
             'name' => 'Maitriser les codes des productions écrites et orales professionnelles',
             'category' => 'Entreprendre',
-            'year' => '4ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>L'<strong>AC2505</strong> me permet de développer la compétence de maîtriser les codes des productions écrites et orales professionnelles. Cette compétence est appliquée de manière significative dans la <strong>SAE302</strong>, où je participe à un projet professionnel nécessitant la production d'écrits et d'orales professionnels.</p>
 <p>Les compétences en anglais (R301 et R302) ainsi que la maîtrise de la rhétorique (R307) sont intégrées pour assurer la qualité et l'efficacité des communications professionnelles dans le cadre de ce projet.</p>
@@ -1593,7 +1593,7 @@ HTML,
             'code' => 'AC25.06',
             'name' => 'Prendre en compte les contraintes juridiques',
             'category' => 'Entreprendree',
-            'year' => '4ème semestre',
+            'year' => '2ème année',
             'description' => <<<HTML
 <p>Au sein de l'<strong>AC2506</strong>, je développe la compétence de prendre en compte les contraintes juridiques. Cette compétence est appliquée dans les <strong>SAE301</strong> et <strong>SAE302</strong>, où je suis impliqué dans des projets professionnels exigeant une compréhension approfondie des contraintes juridiques associées.</p>
 <p>Les compétences en droit (R317) sont intégrées pour garantir la conformité et la prise en compte adéquate des aspects juridiques dans la réalisation de ces projets.</p>
