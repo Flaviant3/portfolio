@@ -740,8 +740,8 @@ HTML,
 <p>Ces projets m’ont permis de renforcer ma capacité à produire des pistes visuelles cohérentes, à explorer des univers graphiques variés, et à structurer l’imaginaire autour d’un projet de design.</p>
 HTML,
             'image' => 'https://i.imgur.com/6ag6qTH.png', // Aucune image disponible
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Explorations graphiques – Univers d’un bar punk & chambre en perspective',
                 'description' => 'Conception d’un univers graphique et apprentissage de la perspective conique pour modélisation en 3D sous Illustrator.',
@@ -765,7 +765,7 @@ HTML,
 <p>Ces expériences ont renforcé ma maîtrise des outils de création graphique et m’ont permis d’explorer de nouvelles approches visuelles pour enrichir mes projets personnels et professionnels.</p>
 HTML,
             'image' => 'https://i.imgur.com/PeQzbsL.png', // Aucune image fournie
-            'image_illustration' => '',
+            'image_illustration' => 'https://i.imgur.com/HEnK8lF.jpeg',
             'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
             'project' => [
                 'title' => 'Création et retouche graphique',
@@ -790,8 +790,8 @@ HTML,
 <p>Ces projets ont renforcé mes compétences en gestion de projet audiovisuel tout en nourrissant ma passion pour l’image et le récit filmé.</p>
 HTML,
             'image' => 'https://i.imgur.com/JaNJEGO.png', // Aucune image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Interview & Tournage vidéo',
                 'description' => 'Participation en tant qu’acteur et chef réalisateur sur plusieurs projets audiovisuels dans le cadre des SAE104 et R210.',
@@ -816,8 +816,8 @@ HTML,
 <p>Ce projet m’a permis d’expérimenter la conception d’interface centrée utilisateur, de la wireframe jusqu’à l’esthétique finale, en assurant une cohérence visuelle et fonctionnelle.</p>
 HTML,
             'image' => 'https://i.imgur.com/p8dQVkP.png', // Aucune image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Interface Web – Covoiturage',
                 'description' => 'Conception d’une interface utilisateur complète pour un service de covoiturage dans le cadre de la SAE 202.',
@@ -840,8 +840,8 @@ HTML,
 <p>Ces projets m'ont permis de comprendre comment adapter mes visuels aux différents <strong>supports numériques</strong> et d’affiner mes compétences en <strong>design graphique</strong> appliqué.</p>
 HTML,
             'image' => 'https://i.imgur.com/VcxFjdm.png', // Aucune image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Logos – Tattoo Shop & Covoiturage',
                 'description' => 'Conception et optimisation de logos pour différents projets dans le cadre des SAE 103 et 202.',
@@ -867,8 +867,8 @@ HTML,
 <p>Ce projet m’a permis de combiner rigueur journalistique et narration numérique pour proposer un contenu <strong>crédible, engageant et informatif</strong>.</p>
 HTML,
             'image' => 'https://i.imgur.com/xSnYe4R.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Site Web sur le Cyberharcèlement',
                 'description' => 'Création d’un site web journalistique autour du thème du cyberharcèlement, en intégrant des pratiques rédactionnelles sourcées et multimédias.',
@@ -895,8 +895,8 @@ HTML,
 <p>Ces expériences m'ont permis d'assurer une <strong>cohérence visuelle</strong> et esthétique au service d’une stratégie de communication efficace.</p>
 HTML,
             'image' => 'https://i.imgur.com/CHzfNFq.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Publicité & Iconographie – SAE 302',
                 'description' => 'Création d’une publicité multilingue, d’un storyboard et d’une modélisation 3D, avec une attention particulière à la cohérence de l’iconographie visuelle.',
@@ -921,8 +921,8 @@ HTML,
 <p>Grâce à ces expériences, j’ai affiné ma capacité à créer une <strong>iconographie esthétique, pertinente et engageante</strong> pour enrichir l’expérience utilisateur et servir efficacement le propos narratif ou marketing.</p>
 HTML,
             'image' => 'https://i.imgur.com/CHzfNFq.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 302 & SAE 402 – Publicité & Dispositif interactif',
                 'description' => 'Mise en œuvre d’une iconographie forte dans deux projets complémentaires : une publicité professionnelle avec modélisation 3D, et une application interactive autour du double maléfique.',
@@ -948,8 +948,8 @@ HTML,
 <p>Grâce à ma connaissance de la culture artistique acquise en <strong>R310</strong>, j’ai veillé à produire une identité visuelle <strong>impactante, cohérente et adaptée</strong> au public ciblé.</p>
 HTML,
             'image' => 'https://i.imgur.com/k0iRQ3J.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 302 – Publicité & identité visuelle',
                 'description' => 'Création d’une charte graphique pour une campagne plurimédia intégrant publicité, modélisation 3D et storyboard.',
@@ -976,8 +976,8 @@ HTML,
 <p>Grâce à mes connaissances acquises en <strong>narration (R306)</strong> et en <strong>production audiovisuelle (R311)</strong>, j’ai contribué à une communication cohérente et impactante sur l’ensemble des supports visés.</p>
 HTML,
             'image' => 'https://i.imgur.com/1KpYdUv.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 302 – Publicité & communication transmédia',
                 'description' => 'Projet plurimédia intégrant narration, vidéo, modélisation 3D et scénarisation transmédia autour d’un produit fictif.',
@@ -997,8 +997,8 @@ HTML,
 <p>Cette approche m’a permis de créer une expérience <strong>immersive, pertinente et cohérente</strong>, où chaque contenu s’articule autour d’une narration forte et engageante à travers différents canaux.</p>
 HTML,
             'image' => 'https://i.imgur.com/1KpYdUv.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 402 – Dispositif interactif "Double Maléfique"',
                 'description' => 'Projet transmédia exploitant narration, développement interactif, sound design et visuels intrigants pour une expérience immersive autour de la thématique du double.',
@@ -1018,8 +1018,8 @@ HTML,
 <p>Ma maîtrise des outils audiovisuels (R311) m’a permis de garantir une production à la fois <strong>créative</strong> et <strong>techniquement aboutie</strong>, tandis que mes connaissances en <strong>mathématiques appliquées (R315)</strong> ont renforcé la qualité et la précision des éléments produits.</p>
 HTML,
             'image' => 'https://i.imgur.com/omkH9n1.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 302 / SAE 303 – Création plurimédia',
                 'description' => 'Production d’une publicité, d’une note d’intention, d’un storyboard et modélisation 3D d’un parfum dans une approche cohérente et professionnelle de communication plurimédia.',
@@ -1039,8 +1039,8 @@ HTML,
 <p>Grâce à mes connaissances en <strong>audiovisuel (R311)</strong>, j’ai pu assurer la qualité technique et esthétique de ces productions dans un cadre professionnel exigeant.</p>
 HTML,
             'image' => 'https://i.imgur.com/yErz8Je.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 303 – Data visualisation & Présentation',
                 'description' => 'Production d’une visualisation de données et d’une présentation orale sur le nombre de bornes électriques en France, intégrant des éléments audiovisuels de qualité.',
@@ -1060,8 +1060,8 @@ HTML,
 <p>Cette approche a permis de renforcer l’impact émotionnel et narratif du dispositif, en créant une <strong>expérience plurimédia cohérente et captivante</strong>.</p>
 HTML,
             'image' => 'https://i.imgur.com/yErz8Je.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 402 – Dispositif interactif “Double maléfique”',
                 'description' => 'Création d’un dispositif interactif avec effets visuels et design sonore immersifs autour du thème du double maléfique.',
@@ -1081,8 +1081,8 @@ HTML,
 <p>Ce travail m’a permis de maîtriser les étapes clés du développement web en autonomie, de la conception à la mise en ligne, dans un environnement productif et professionnel.</p>
 HTML,
             'image' => 'https://i.imgur.com/mKwBIUD.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Déploiement de sites web dynamiques sur serveur VPS',
                 'description' => 'Création et mise en ligne de sites web via HTML, CSS et PHP, déployés sur un VPS à l’aide de FileZilla.',
@@ -1102,8 +1102,8 @@ HTML,
 <p>Ce site web est le reflet de mon souci du détail et de ma capacité à concevoir des interfaces web claires, accessibles et agréables à utiliser.</p>
 HTML,
             'image' => 'https://i.imgur.com/bLQ4yky.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Site Minecraft - SAE 203',
                 'description' => 'Création d’un site web sur Minecraft avec un balisage sémantique structuré et des interactions simples, dans le cadre de la SAE 203.',
@@ -1123,8 +1123,8 @@ HTML,
 <p>Ces expériences m’ont permis de comprendre l’intérêt des données structurées dans le développement web et de produire des sites capables de s’adapter dynamiquement au contenu des bases de données.</p>
 HTML,
             'image' => 'https://i.imgur.com/prSOkQI.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Affichage dynamique de données - SAE 105 & R213',
                 'description' => 'Conversion de données Excel en JSON, affichage en PHP et utilisation de requêtes SQL pour générer des pages web dynamiques.',
@@ -1144,8 +1144,8 @@ HTML,
 <p>Grâce à cette démarche, j’ai pu maîtriser les processus d’hébergement web en environnement professionnel tout en tirant profit des outils de versioning pour garantir la stabilité et la continuité du service.</p>
 HTML,
             'image' => 'https://i.imgur.com/dIRCuTS.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Hébergement web sur VPS – SAE 105 & SAE 203',
                 'description' => 'Utilisation de FileZilla, SSH, GitHub et Docker pour déployer et gérer des applications web sur serveur distant.',
@@ -1163,8 +1163,8 @@ HTML,
 <p>J’ai également appris à appliquer la méthode GET, qui m’a permis de structurer efficacement les données en fonction des besoins fonctionnels du projet. Cette approche m’a aidé à concevoir un système d’information cohérent et performant, en assurant une gestion optimale et évolutive des données de notre application web.</p>
 HTML,
             'image' => 'https://i.imgur.com/K2MFTLg.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 203 – Modélisation de données pour un site d’information',
                 'description' => 'Conception MCD/MLD et structuration de la base de données pour un site web dynamique.',
@@ -1184,8 +1184,8 @@ HTML,
 <p>Ce travail m’a permis de comprendre en profondeur la logique MVC, tout en développant une interface conviviale et efficace pour la gestion de contenu, démontrant mes compétences en personnalisation d’une application web dans un cadre structuré.</p>
 HTML,
             'image' => 'https://i.imgur.com/Xobm7Qq.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 203 – Interface d’administration sécurisée et personnalisée',
                 'description' => 'Mise en place d’un espace d’administration avec restrictions d’accès et gestion CRUD des données.',
@@ -1205,8 +1205,8 @@ HTML,
 <p>J’ai également veillé à optimiser l’expérience utilisateur en intégrant des <strong>interactions riches</strong> et des animations fluides, garantissant une navigation intuitive sur tous les appareils. Ces compétences sont au cœur des enjeux actuels du web moderne.</p>
 HTML,
             'image' => 'https://i.imgur.com/cCQdupN.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 303 – Application responsive et interactive',
                 'description' => 'Conception et développement d’une application web responsive avec interactions riches et design adaptatif.',
@@ -1226,8 +1226,8 @@ HTML,
 <p>En m’appuyant sur les connaissances acquises dans la ressource <strong>R316 – Gestion de projet</strong>, j’ai structuré efficacement le développement de cette interface, garantissant une <strong>organisation claire, une ergonomie adaptée</strong> et une maintenance facilitée pour les futurs utilisateurs.</p>
 HTML,
             'image' => 'https://i.imgur.com/dpzqgVY.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'SAE 301 – Interface de back office pour gestion de projet',
                 'description' => 'Conception et développement d’un back office fonctionnel pour l’administration d’un projet professionnel.',
@@ -1247,8 +1247,8 @@ HTML,
 <p>Ce projet m’a permis de maîtriser <strong>l’interconnexion entre un front Vue.js et un back Symfony</strong>, compétence indispensable pour tout projet de développement web à architecture découplée.</p>
 HTML,
             'image' => 'https://i.imgur.com/dpzqgVY.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Développement d’un back office API avec Symfony et Vue.js',
                 'description' => 'Mise en place d’une API Symfony interconnectée avec un front-end Vue.js pour la gestion d’entités métiers.',
@@ -1268,8 +1268,8 @@ HTML,
 <p>Cette mise en œuvre m’a permis de renforcer ma maîtrise des technologies front-end modernes (HTML, CSS, JavaScript, Vue.js) tout en mettant en valeur mes compétences dans la <strong>conception d’interfaces utilisateur interactives</strong>.</p>
 HTML,
             'image' => 'https://i.imgur.com/RslTjU6.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Développement d’interfaces interactives pour la SAE 303',
                 'description' => 'Conception d’interactions riches et de dispositifs web interactifs favorisant l’engagement utilisateur.',
@@ -1287,8 +1287,8 @@ HTML,
 <p>J’ai exploité le framework <strong>Vue.js</strong> pour garantir une <strong>ergonomie fluide</strong> et une <strong>navigation libre</strong>, favorisant ainsi l’<strong>immersion utilisateur</strong> et l’interactivité du dispositif. Ce projet m’a permis de mettre en œuvre des compétences avancées en <strong>développement front-end</strong> et en conception d’<strong>expériences numériques engageantes</strong>.</p>
 HTML,
             'image' => 'https://i.imgur.com/RslTjU6.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Application web immersive sur le thème du double maléfique (SAE402)',
                 'description' => 'Création d’un dispositif narratif interactif avec une interface fluide, des contenus multimédias et une navigation libre grâce à Vue.js.',
@@ -1306,8 +1306,8 @@ HTML,
 <p>Grâce aux outils de modélisation appris en cours, j’ai pu formaliser les <strong>processus applicatifs</strong> sous forme de diagrammes (ex. diagrammes d’activités ou de séquence), facilitant ainsi le développement, la collaboration en équipe et la compréhension technique du projet. Cette modélisation a joué un rôle central dans l’assurance qualité et la robustesse de l’application web finale.</p>
 HTML,
             'image' => 'https://i.imgur.com/Gud9qsP.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projet SAE 301 : Application Web avec modélisation des traitements',
                 'description' => 'Modélisation des traitements pour structurer la logique métier d’une application Web, en lien avec la gestion d’un back-office et le développement front/back.',
@@ -1327,8 +1327,8 @@ HTML,
 <p>Les ressources <strong>R312 (Développement front-end)</strong> et <strong>R314 (Déploiement de service)</strong> ont été essentielles pour garantir une mise en production fluide, rapide et adaptée aux standards du web moderne.</p>
 HTML,
             'image' => 'https://i.imgur.com/SDNv4yu.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projet SAE 301 : Optimisation web',
                 'description' => 'Optimisation d’une application web en termes de référencement naturel (SEO) et de performances techniques, pour une expérience utilisateur rapide et efficace.',
@@ -1348,8 +1348,8 @@ HTML,
 <p>Cette configuration a été rendue possible grâce à l’acquisition de compétences en <strong>déploiement de service (R314)</strong>, essentielles pour garantir la stabilité et la performance de l’application web hébergée.</p>
 HTML,
             'image' => 'https://i.imgur.com/Cb1YTS7.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projet SAE 301 : Configuration d’un serveur d’hébergement',
                 'description' => 'Installation, configuration et sécurisation d’un serveur VPS pour le déploiement d’une application web avec GitHub, Apache, PHP et MySQL.',
@@ -1379,8 +1379,8 @@ L’intégration de <strong>GitHub Actions</strong> a également permis de mettr
 Il démontre ma capacité à mettre en œuvre un <strong>workflow professionnel</strong> complet, de la configuration serveur jusqu’au développement applicatif et au déploiement.</p>
 HTML,
             'image' => 'https://i.imgur.com/Cb1YTS7.png',
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projet Application de films (VueJS + Symfony)',
                 'description' => 'Développement d’une application web responsive permettant de gérer une base de données de films, acteurs et catégories, avec API Symfony et interface VueJS.',
@@ -1423,8 +1423,8 @@ HTML,
 Il constitue une mise en pratique complète d’un <strong>projet backend structuré et professionnel</strong>.</p>
 HTML,
             'image' => 'https://i.imgur.com/Cb1YTS7.png',
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projet Abonnements & Génération de PDFs (Symfony)',
                 'description' => 'Développement d’une application Symfony permettant la gestion d’abonnements et la génération de PDFs avec limitations, historique et CI/CD complet.',
@@ -1445,8 +1445,8 @@ J’ai également collaboré avec l’équipe sur les mécaniques interactives a
 
 <p>Ce projet m’a permis de développer mes compétences en <strong>level design</strong>, en <strong>optimisation graphique pour la VR</strong> et en <strong>collaboration sur un projet Unity complexe</strong>.</p>
 HTML,
-            'image' => 'https://via.placeholder.com/600x400.png?text=RAW+Project+VR',
-            'image_illustration' => '',
+            'image' => 'https://i.imgur.com/Cb1YTS7.png',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
             'image_illustration2' => '',
             'project' => [
                 'title' => 'RAW Project (Unity VR)',
@@ -1472,9 +1472,9 @@ J’ai également ajouté un <strong>système de permissions</strong> pour restr
 <p>Ces développements m’ont permis d’acquérir de solides compétences en <strong>conception de composants logiciels</strong>, en <strong>interaction frontend-backend</strong> et en <strong>optimisation des performances</strong>, 
 tant dans un contexte ludique (VR) que dans une application web professionnelle (Symfony).</p>
 HTML,
-            'image' => 'https://via.placeholder.com/600x400.png?text=RAW+Project+Unity+VR',
-            'image_illustration' => '',
-            'image_illustration2' => 'https://via.placeholder.com/600x400.png?text=Symfony+TinyMCE+Plugin',
+            'image' => 'https://i.imgur.com/Cb1YTS7.png',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'RAW Project (Unity VR) & Symfony PDF Generator',
                 'description' => 'Développement de composants logiciels : un système de scores pour un jeu VR et un plugin TinyMCE pour générer des PDFs dans une application Symfony.',
@@ -1497,9 +1497,9 @@ Un fichier <code>docker-compose.yml</code> a été utilisé pour isoler et coord
 <p>J’ai également mis en place une <strong>intégration continue avec GitHub Actions</strong>, automatisant l’exécution des tests <strong>PHPUnit</strong> à chaque mise à jour, afin d’assurer la qualité et la fiabilité du code avant déploiement. 
 Ces expériences m’ont permis de renforcer mes compétences en <strong>hébergement, configuration système et déploiement applicatif</strong>, aussi bien dans un contexte immersif (jeu VR) que dans une application web professionnelle.</p>
 HTML,
-            'image' => 'https://via.placeholder.com/600x400.png?text=RAW+Project+Unity+VR+Deployment',
-            'image_illustration' => '',
-            'image_illustration2' => 'https://via.placeholder.com/600x400.png?text=Symfony+Docker+Deployment',
+            'image' => 'https://i.imgur.com/Cb1YTS7.png',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'RAW Project (Unity VR) & Application Symfony (Docker)',
                 'description' => 'Déploiement d’un jeu VR sur environnement dédié et d’une application Symfony conteneurisée avec Docker et intégrée à GitHub Actions.',
@@ -1515,8 +1515,8 @@ HTML,
 <p>Nous avons utilisé avec succès <strong>Trello</strong> pour créer un tableau de bord de gestion des tâches et <strong>Google Sheets</strong> pour planifier les activités sur un calendrier partagé. Cette complémentarité des outils nous a permis une organisation fluide du travail, une meilleure collaboration et un suivi efficace de l'avancement de notre projet <strong>SAE202</strong>.</p>
 HTML,
             'image' => 'https://i.imgur.com/5zVuQwn.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Organisation efficace du projet SAE202 avec Trello et Google Sheets',
                 'description' => 'Utilisation conjointe de Trello et Google Sheets pour une gestion collaborative et un suivi optimal du projet.',
@@ -1533,8 +1533,8 @@ HTML,
 <p>Concernant le projet <strong>SAE202</strong>, notre groupe a été réparti en plusieurs ateliers distincts, m'amenant à suivre attentivement l'avancement de chaque équipe afin d'assurer la conformité du rendu final. Cette coordination a été essentielle pour garantir la cohérence et la réussite globale du projet.</p>
 HTML,
             'image' => 'https://i.imgur.com/ZHdyLip.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Budgétisation et coordination pour les projets SAE106 et SAE202',
                 'description' => 'Gestion précise du budget et suivi de la rentabilité ainsi que coordination des équipes pour assurer la réussite globale du projet.',
@@ -1551,8 +1551,8 @@ HTML,
 <p>De plus, pour le projet <strong>SAE202</strong>, nous nous sommes répartis en ateliers distincts, tout en maintenant une cohérence globale. Ces stratégies de planification et de répartition ont été essentielles pour assurer une gestion efficace, une collaboration harmonieuse et l'atteinte de nos objectifs communs.</p>
 HTML,
             'image' => 'https://i.imgur.com/ZQGV4Fe.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Gestion de projet avec méthodes éprouvées',
                 'description' => 'Utilisation de diagrammes de Gantt et répartition structurée des tâches pour une gestion et collaboration efficaces au sein du projet SAE202.',
@@ -1569,8 +1569,8 @@ HTML,
 <p>J'ai également exploré des écosystèmes d'innovation numérique afin de découvrir de nouvelles solutions respectueuses de l'environnement dans le domaine du développement web. Cette démarche m'a permis de prendre conscience de l'importance de l'éco-responsabilité dans la conception et la gestion des sites web, contribuant ainsi à la préservation de notre environnement.</p>
 HTML,
             'image' => 'https://i.imgur.com/YyRha1J.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Optimisation éco-responsable d’un site web',
                 'description' => 'Mise en place de mesures pour réduire l’empreinte environnementale d’un site web, intégrant des solutions durables et innovantes issues des écosystèmes numériques.',
@@ -1587,8 +1587,8 @@ HTML,
 <p>Cette analyse nous a permis d'identifier les aspects qui pourraient être améliorés ou ajoutés à notre propre projet. Nous avons ainsi pu cibler les points forts et les faiblesses de l'application de référence, et proposer des fonctionnalités innovantes et adaptées aux besoins des utilisateurs de notre application de déplacement à vélo écologique.</p>
 HTML,
             'image' => 'https://i.imgur.com/EnuPMGk.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Analyse et amélioration d’une application de mobilité écologique',
                 'description' => 'Étude comparative de l’application Komoot pour proposer des fonctionnalités innovantes adaptées à un service de déplacement à vélo écologique.',
@@ -1605,8 +1605,8 @@ HTML,
 <p>Cette démarche m'a permis de développer mes compétences en communication et en présentation, tout en rendant mon profil plus impactant dans ma recherche de stage.</p>
 HTML,
             'image' => 'https://i.imgur.com/7iF2wcE.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Création d’une présence en ligne et d’un CV vidéo',
                 'description' => 'Utilisation de Canva pour concevoir un CV vidéo et une présence en ligne dynamique afin de valoriser mes compétences dans le cadre de ma recherche de stage.',
@@ -1623,8 +1623,8 @@ HTML,
 <p>J’ai mis en pratique ces compétences à travers la réalisation d’un CV vidéo, qui combine à la fois un message oral et une mise en forme visuelle professionnelle, facilitant ainsi ma communication auprès des recruteurs.</p>
 HTML,
             'image' => 'https://i.imgur.com/5DjAKyk.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Création d’un CV vidéo professionnel',
                 'description' => 'Conception et production d’un CV vidéo, intégrant un message oral clair et structuré, afin de valoriser mes compétences et mon parcours professionnel.',
@@ -1641,8 +1641,8 @@ HTML,
 <p>L'intégration des compétences en gestion de projet (R316) me permet d'adopter une approche agile favorisant l'adaptabilité, la collaboration et l'amélioration continue tout au long de ce projet.</p>
 HTML,
             'image' => 'https://i.imgur.com/4Z9UE4m.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projet SAE301 : Gestion agile de projet',
                 'description' => 'Application de la méthode agile pour assurer la gestion efficace et évolutive du projet, favorisant la collaboration et l’amélioration continue.',
@@ -1659,8 +1659,8 @@ HTML,
 <p>Les compétences en droit (R317) sont intégrées pour garantir une cartographie précise et conforme aux réglementations et exigences juridiques dans le cadre de ce projet.</p>
 HTML,
             'image' => 'https://i.imgur.com/KtQdZI6.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projet SAE301 : Cartographie d’un écosystème',
                 'description' => 'Identification des acteurs et synthèse des propositions de valeur, avec un focus sur les aspects juridiques pour assurer conformité et pertinence.',
@@ -1677,8 +1677,8 @@ HTML,
 <p>Ces expériences contribuent non seulement au développement de compétences techniques, mais aussi à la création de relations professionnelles bénéfiques pour ma carrière.</p>
 HTML,
             'image' => 'https://i.imgur.com/fx2jREF.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projets SAE301 & SAE302 : Constitution d’un réseau professionnel',
                 'description' => 'Mise en place et développement d’un réseau professionnel utile à la fois pour les projets en cours et pour le futur professionnel.',
@@ -1695,8 +1695,8 @@ HTML,
 <p>Les compétences en anglais (<strong>R301</strong> et <strong>R302</strong>) et en rhétorique (<strong>R307</strong>) sont intégrées pour faciliter une communication efficace et une collaboration harmonieuse au sein de l'organisation.</p>
 HTML,
             'image' => 'https://i.imgur.com/OXzby23.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projet SAE302 : Collaboration en équipe',
                 'description' => 'Participation à un projet professionnel nécessitant une collaboration efficace, avec un accent sur la communication en anglais et la rhétorique.',
@@ -1713,8 +1713,8 @@ HTML,
 <p>Cette collaboration m'a permis de produire un site de jeux efficace, en ligne avec nos objectifs techniques et notre vision pour récompenser les joueurs.</p>
 HTML,
             'image' => 'https://i.imgur.com/OXzby23.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projet SAE401 : Collaboration pour le site Greenplay',
                 'description' => 'Travail d’équipe autour du développement, du design et de l’hébergement pour créer un site de jeux vidéo performant et cohérent.',
@@ -1731,8 +1731,8 @@ HTML,
 <p>Les compétences en anglais (R301 et R302) ainsi que la maîtrise de la rhétorique (R307) sont intégrées pour assurer la qualité et l'efficacité des communications professionnelles dans le cadre de ce projet.</p>
 HTML,
             'image' => 'https://i.imgur.com/vr5RqNh.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projet SAE302 : Communication professionnelle écrite et orale',
                 'description' => 'Production de documents écrits et oraux respectant les standards professionnels, intégrant des compétences linguistiques et rhétoriques.',
@@ -1749,8 +1749,8 @@ HTML,
 <p>Les compétences en droit (R317) sont intégrées pour garantir la conformité et la prise en compte adéquate des aspects juridiques dans la réalisation de ces projets.</p>
 HTML,
             'image' => 'https://i.imgur.com/6ReFR7m.png', // Pas d’image fournie
-            'image_illustration' => '',
-            'image_illustration2' => 'https://i.imgur.com/6wLjJ39.jpeg',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'Projets SAE301 & SAE302 : Conformité juridique',
                 'description' => 'Application des connaissances juridiques pour assurer la conformité légale des projets professionnels.',
@@ -1760,7 +1760,7 @@ HTML,
         [
             'code' => 'AC35.01',
             'name' => 'Piloter un produit, un service ou une équipe',
-            'category' => 'Développé',
+            'category' => 'Entreprendre',
             'year' => '3ème année',
             'description' => <<<HTML
 <p>Dans le cadre du projet <strong>RAW Project</strong> (SAE501), un <strong>jeu d’horreur en 3D VR développé avec Unity</strong>, j’ai participé avec mon groupe au <strong>pilotage du projet</strong> de septembre 2024 à janvier 2025. 
@@ -1778,9 +1778,9 @@ J’ai mis en place des tests automatisés avec <strong>PHPUnit</strong> (backen
 <p>Le projet reposait sur une infrastructure conteneurisée avec <strong>Docker</strong> et <code>docker-compose.yml</code>, intégrant Symfony, MariaDB et Gotenberg pour la conversion en PDF. 
 J’ai assuré moi-même la <strong>planification, documentation, suivi des bugs et déploiement</strong>, ce qui m’a permis de développer une réelle autonomie dans la <strong>gestion d’un produit complet</strong>, depuis sa conception jusqu’à sa mise en production.</p>
 HTML,
-            'image' => 'https://via.placeholder.com/600x400.png?text=RAW+Project+Unity+VR',
-            'image_illustration' => '',
-            'image_illustration2' => 'https://via.placeholder.com/600x400.png?text=Symfony+PDF+Generator',
+            'image' => 'https://i.imgur.com/Cb1YTS7.png',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'RAW Project (Unity VR) & Application Symfony (PDF Generator)',
                 'description' => 'Pilotage collectif d’un jeu d’horreur en VR (Unity) et gestion autonome d’une application Symfony conteneurisée pour la génération de PDF.',
@@ -1790,7 +1790,7 @@ HTML,
         [
             'code' => 'AC35.02',
             'name' => 'Maîtriser la qualité en projet Web ou multimédia',
-            'category' => 'Développé',
+            'category' => 'Entreprendre',
             'year' => '3ème année',
             'description' => <<<HTML
 <p>Dans le cadre de la SAE501D, de septembre 2024 à janvier 2025, j’ai avec mon groupe veillé à garantir la <strong>qualité du jeu RAW Project</strong>, un <strong>jeu d’horreur VR 3D développé sous Unity</strong>. 
@@ -1810,9 +1810,9 @@ J’ai aussi porté une attention particulière à l’<strong>expérience utili
 
 <p>L’attention portée à la <strong>qualité du code</strong>, à la <strong>robustesse des fonctionnalités</strong> et à l’<strong>immersion utilisateur</strong> a permis de livrer à la fois un jeu VR stable et une application Symfony fiable, répondant aux exigences de performance et d’expérience.</p>
 HTML,
-            'image' => 'https://via.placeholder.com/600x400.png?text=RAW+Project+VR+Unity',
-            'image_illustration' => '',
-            'image_illustration2' => 'https://via.placeholder.com/600x400.png?text=Symfony+PDF+Generator',
+            'image' => 'https://i.imgur.com/Cb1YTS7.png',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'RAW Project (Unity VR) & Application Symfony (PDF Generator)',
                 'description' => 'Garantie de la qualité d’un jeu VR 3D (Unity) et d’une application Symfony conteneurisée, via tests utilisateurs, automatisation (PHPUnit, Cypress) et intégration continue (GitHub Actions).',
@@ -1822,7 +1822,7 @@ HTML,
         [
             'code' => 'AC35.03',
             'name' => 'Concevoir un projet d’entreprise innovante en définissant le nom, l’identité, la forme juridique et le ton de la marque',
-            'category' => 'Projet',
+            'category' => 'Entreprendre',
             'year' => '3ème année',
             'description' => <<<HTML
 <p>Dans le cadre de la SAE501D, j’ai avec mon groupe participé à la conception d’un projet original et innovant, baptisé <strong>RAW Project</strong>, un <strong>jeu d’horreur immersif en VR développé sous Unity 3D</strong>. 
@@ -1845,9 +1845,9 @@ J’ai participé à la création du branding : logo, typographies, palette de c
 
 <p>Cette expérience m’a permis de <strong>concevoir un projet innovant avec une identité forte</strong> tout en intégrant des pratiques responsables et inclusives, combinant créativité, stratégie et vision entrepreneuriale.</p>
 HTML,
-            'image' => 'https://via.placeholder.com/600x400.png?text=RAW+Project+VR+Unity',
-            'image_illustration' => '',
-            'image_illustration2' => 'https://via.placeholder.com/600x400.png?text=RSE+EcoNova',
+            'image' => 'https://i.imgur.com/Cb1YTS7.png',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'RAW Project (Unity VR) & Étude RSE EcoNova',
                 'description' => 'Conception d’un jeu VR immersif avec identité de marque forte et analyse RSE d’une entreprise réelle pour définir des pistes d’amélioration sociales et inclusives.',
@@ -1857,7 +1857,7 @@ HTML,
         [
             'code' => 'AC35.04',
             'name' => 'Défendre un projet de manière convaincante',
-            'category' => 'Communication',
+            'category' => 'Entreprendre',
             'year' => '3ème année',
             'description' => <<<HTML
 <p>Dans le cadre de la SAE501, j’ai été amené à <strong>défendre publiquement notre projet de jeu vidéo "RAW Project"</strong>, un jeu d’horreur immersif en VR développé sous Unity 3D. 
@@ -1893,9 +1893,9 @@ J’ai analysé les documents transmis (rapports, vidéos, questionnaires) pour 
 
 <p>Cette expérience m’a permis de développer des compétences de <strong>communication persuasive</strong>, d’argumentation stratégique et de rédaction professionnelle.</p>
 HTML,
-            'image' => 'https://via.placeholder.com/600x400.png?text=RAW+Project+VR+Defense',
-            'image_illustration' => '',
-            'image_illustration2' => 'https://via.placeholder.com/600x400.png?text=RSE+EcoNova+Defense',
+            'image' => 'https://i.imgur.com/Cb1YTS7.png',
+            'image_illustration' => 'https://i.imgur.com/qqfiCD8.png',
+            'image_illustration2' => '',
             'project' => [
                 'title' => 'RAW Project VR & Défense RSE EcoNova',
                 'description' => 'Présentation publique d’un jeu VR immersif et défense de mesures RSE, développant les compétences en communication persuasive, argumentation et rédaction professionnelle.',
